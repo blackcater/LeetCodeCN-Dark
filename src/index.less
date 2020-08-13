@@ -74,4 +74,55 @@
       }
     }
   }
+
+  // 侧边栏
+  .side-bar {
+    // 广告
+    .wrapper__2b4L img {
+      filter: brightness(0.8);
+    }
+
+    // 区块
+    .side-block {
+      .side-block-title {
+        color: @title-color !important;
+      }
+
+      .side-block-info {
+        color: @text-color !important;
+      }
+
+      .side-block-image img {
+        filter: brightness(0.8);
+      }
+
+      a.side-block-btn {
+        color: @text-color !important;
+        border: 1px solid @border-color !important;
+        background: transparent !important;
+
+        &:hover {
+          color: @primary6-color !important;
+          border: 1px solid @primary6-color !important;
+          background: @primary0-color !important;
+        }
+      }
+    }
+
+    // 问题列表
+    .problem-category {
+      a.link {
+        &:hover {
+          color: @text-color !important;
+          background: @grey3-color !important;
+        }
+
+        color: @text-light-color !important;
+
+        i.fa {
+          color: @green-color !important;
+        }
+      }
+    }
+  }
 }

@@ -6,6 +6,16 @@ const LessPluginInlineSvg = require("less-plugin-inline-svg");
 const LessPluginAutoPrefix = require("less-plugin-autoprefix");
 const pkg = require("./package.json");
 
+const headerTpl = `/* ==UserStyle==
+@name         LeetcodeCN Dark
+@namespace    github.com/blackcater/LeetCodeCN-Dark
+@version      <%= pkg.version %>
+@license      <%= pkg.license %>
+@updateURL    https://raw.githubusercontent.com/blackcater/LeetCodeCN-Dark/master/leetcode-cn-dark.user.css
+@author       <%= pkg.author %>
+==/UserStyle== */
+`;
+
 function buildLess() {
   return src("src/*.less")
     .pipe(
@@ -17,25 +27,12 @@ function buildLess() {
       })
     )
     .pipe(concat("leetcode-cn-dark.user.css"))
-    .pipe(
-      header(
-        `/* ==UserStyle==
-@name         LeetcodeCN Dark
-@namespace    github.com/blackcater/LeetCodeCN-Dark
-@version      <%= pkg.version %>
-@license      <%= pkg.license %>
-@updateURL    https://raw.githubusercontent.com/blackcater/LeetCodeCN-Dark/master/leetcode-cn-dark.user.css
-@author       <%= pkg.author %>
-==/UserStyle== */
-`,
-        { pkg }
-      )
-    )
+    .pipe(header(headerTpl, { pkg }))
     .pipe(dest("./"));
 }
 
 task("build", series(buildLess));
 
 task("watch", function () {
-  watch("src/**/*.less", buildLess);
+  watch("src/**/*.less", series(buildLess));
 });

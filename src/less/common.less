@@ -17,8 +17,16 @@ body {
 
   nav {
     li {
-      color: @title-color;
+      color: @title-color !important;
     }
+  }
+
+  // Logo
+  .css-1n67oxn-LightImg {
+    display: none !important;
+  }
+  .css-56tabg-DarkImg {
+    display: block !important;
   }
 
   // 下载应用
@@ -36,18 +44,18 @@ body {
 
 // Footer
 #lc-footer {
-  padding: 15px 0;
+  padding: 15px 0 !important;
   color: @footer-color !important;
   background: @footer-background-color !important;
   border-top: @footer-border !important;
 
   hr {
-    display: none;
+    display: none !important;
   }
 
   .row:first-of-type {
-    margin-bottom: 10px;
-    height: 38px;
+    margin-bottom: 10px !important;
+    height: 38px !important;
   }
 
   .row.chinese-license a {
