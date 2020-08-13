@@ -1,4 +1,40 @@
-@import "less/_variable";
-
 @-moz-document url-prefix("https://leetcode-cn.com/problemset/") {
+  @import "less/_variable";
+  @import "less/common.less";
+
+  // 问题列表
+  #question-app {
+    // 顶部分类
+    .category-group-base {
+      & > span:first-child {
+        color: @title-color !important;
+      }
+
+      .category-card-base {
+        filter: brightness(0.8);
+
+        .caret-base .simple-caret {
+          &::before {
+            border-bottom: 10px solid @grey7-color !important;
+            border-right: 10px solid transparent !important;
+            border-left: 10px solid transparent !important;
+          }
+
+          &::after {
+            border-bottom: 9px solid @background-color !important;
+            border-right: 9px solid transparent !important;
+            border-left: 9px solid transparent !important;
+          }
+        }
+
+        .close-btn {
+          color: @white-color !important;
+        }
+      }
+
+      hr.line {
+        border-color: @grey7-color !important;
+      }
+    }
+  }
 }
