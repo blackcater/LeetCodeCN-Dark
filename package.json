@@ -9,8 +9,12 @@
   "private": true,
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-header": "^2.0.9",
     "gulp-less": "^4.0.1",
     "less": "^3.12.2",
+    "less-plugin-autoprefix": "^2.0.0",
+    "less-plugin-inline-svg": "^2.0.1",
     "prettier": "^2.0.5"
   }
 }
