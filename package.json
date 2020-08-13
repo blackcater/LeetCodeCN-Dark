@@ -7,6 +7,10 @@
   "author": "Elon Tang <blackcater2015@gmail.com>",
   "license": "Mulan PSL",
   "private": true,
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",

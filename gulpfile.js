@@ -1,6 +1,7 @@
 const { task, watch, series, src, dest } = require("gulp");
 const less = require("gulp-less");
 const concat = require("gulp-concat");
+const header = require("gulp-header");
 const LessPluginInlineSvg = require("less-plugin-inline-svg");
 const LessPluginAutoPrefix = require("less-plugin-autoprefix");
 const pkg = require("./package.json");
@@ -16,7 +17,25 @@ function buildLess() {
       })
     )
     .pipe(concat("leetcode-cn-dark.user.css"))
+    .pipe(
+      header(
+        `/* ==UserStyle==
+@name         LeetcodeCN Dark
+@namespace    github.com/blackcater/LeetCodeCN-Dark
+@version      <%= pkg.version %>
+@license      <%= pkg.license %>
+@updateURL    https://example.com
+@author       <%= pkg.author %>
+==/UserStyle== */
+`,
+        { pkg }
+      )
+    )
     .pipe(dest("./"));
 }
 
 task("build", series(buildLess));
+
+task("watch", function () {
+  watch("src/**/*.less", buildLess);
+});
