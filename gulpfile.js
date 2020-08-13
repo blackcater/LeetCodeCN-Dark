@@ -24,7 +24,7 @@ function buildLess() {
 @namespace    github.com/blackcater/LeetCodeCN-Dark
 @version      <%= pkg.version %>
 @license      <%= pkg.license %>
-@updateURL    https://example.com
+@updateURL    https://raw.githubusercontent.com/blackcater/LeetCodeCN-Dark/master/leetcode-cn-dark.user.css
 @author       <%= pkg.author %>
 ==/UserStyle== */
 `,

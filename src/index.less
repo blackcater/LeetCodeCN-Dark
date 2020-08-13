@@ -1,4 +1,77 @@
-@import "less/_variable";
-
 @-moz-document url("https://leetcode-cn.com/") {
+  @import "less/_variable";
+  @import "less/common";
+
+  // 右上角用户点击后弹窗
+  .popper-container
+    > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer {
+    background: @dropdown-background-color !important;
+    box-shadow: @dropdown-shadow !important;
+    border: @dropdown-border !important;
+
+    // 头部 VIP 区
+    .css-1tlu1zr-Wrapper {
+      // 用户名
+      .css-8wgfkr-UserNameContainer {
+        color: @yellow5-color !important;
+      }
+
+      // 会员剩余时长
+      .css-hfz3b8-TimeRemainContainer {
+        color: @yellow5-color !important;
+      }
+
+      svg {
+        fill: @yellow5-color !important;
+      }
+    }
+
+    // 链接区
+    a {
+      color: @text-color !important;
+
+      svg {
+        fill: @text-color !important;
+      }
+    }
+  }
+
+  // 中间内容区
+  .content-wrapper {
+    &::after {
+      content: "";
+      display: block;
+      padding: 20px;
+    }
+  }
+
+  // 消息区
+  .storyboard {
+    border-right: 1px solid @border-color !important;
+
+    hr {
+      border-top: 1px solid @border-color !important;
+    }
+
+    // 每条消息
+    .media {
+      .media-left.media-top {
+        filter: brightness(0.8);
+      }
+
+      .media-body {
+        .since {
+          color: @text-secondary-color !important;
+        }
+
+        .media-heading {
+          color: @title-color !important;
+
+          a {
+            color: @blue-color !important;
+          }
+        }
+      }
+    }
+  }
 }

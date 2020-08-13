@@ -1,6 +1,70 @@
 @import "_variable";
 
+// Global
+html,
+body {
+  color: @text-color !important;
+  background: @background-color !important;
+}
+
+// Header
+#noj-navbar {
+  & > div {
+    color: @title-color !important;
+    background: @header-background-color !important;
+    box-shadow: @header-shadow !important;
+  }
+
+  nav {
+    li {
+      color: @title-color;
+    }
+  }
+
+  // 下载应用
+  a.css-tgtq8y-BaseButtonComponent-AppButton {
+    color: @green-color !important;
+    box-shadow: inset 0 0 0 1px @green-color !important;
+
+    &:hover {
+      color: @primary6-color !important;
+      background: @primary0-color !important;
+      box-shadow: inset 0 0 0 1px @primary6-color !important;
+    }
+  }
+}
+
+// Footer
+#lc-footer {
+  padding: 15px 0;
+  color: @footer-color !important;
+  background: @footer-background-color !important;
+  border-top: @footer-border !important;
+
+  hr {
+    display: none;
+  }
+
+  .row:first-of-type {
+    margin-bottom: 10px;
+    height: 38px;
+  }
+
+  .row.chinese-license a {
+    color: @footer-color !important;
+  }
+
+  .copyright span {
+    color: @footer-color !important;
+  }
+
+  .links a {
+    color: @footer-color !important;
+  }
+}
+
+// Selection
 ::selection {
-  color: @selection-color;
-  background: @selection-background;
+  color: @selection-color !important;
+  background: @selection-background !important;
 }
