@@ -8,6 +8,8 @@
   "license": "Mulan PSL",
   "private": true,
   "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1",
     "less": "^3.12.2",
     "prettier": "^2.0.5"
   }
