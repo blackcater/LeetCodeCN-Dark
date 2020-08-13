@@ -1,0 +1,14 @@
+{
+  "name": "LeetCodeCN-Dark",
+  "version": "1.0.0",
+  "description": "中国区 LeetCode 支持黑色主题",
+  "main": "index.js",
+  "repository": "https://github.com/blackcater/LeetCodeCN-Dark.git",
+  "author": "Elon Tang <blackcater2015@gmail.com>",
+  "license": "Mulan PSL",
+  "private": true,
+  "devDependencies": {
+    "less": "^3.12.2",
+    "prettier": "^2.0.5"
+  }
+}
