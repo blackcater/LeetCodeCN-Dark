@@ -1,8 +1,7 @@
 @-moz-document url-prefix("https://leetcode-cn.com/problemset/") {
-  @import "less/_variable";
   @import "less/common.less";
 
-  // 问题列表
+  // 问题区
   #question-app {
     // 顶部分类
     .category-group-base {
@@ -34,6 +33,181 @@
 
       hr.line {
         border-color: @grey7-color !important;
+      }
+    }
+
+    .assess-bar {
+      // 难度标签
+      .label {
+        &.label-primary {
+          background: @blue-color !important;
+        }
+
+        &.label-success {
+          background: @green-color !important;
+        }
+
+        &.label-warning {
+          background: @yellow-color !important;
+        }
+
+        &.label-danger {
+          background: @red-color !important;
+        }
+      }
+
+      // 右侧按钮
+      .pull-right a.btn {
+        .btn-default();
+      }
+    }
+
+    // 问题列表
+    .question-list-base {
+      // 分割线
+      .separator-line {
+        .separator-op {
+          border-bottom: 1px solid @border-color !important;
+          background: none !important;
+        }
+
+        .separator_left_mask {
+          background: linear-gradient(
+            to right,
+            @background-color,
+            rgba(255, 255, 255, 0)
+          ) !important;
+        }
+
+        .separator_right_mask {
+          background: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0),
+            @background-color
+          ) !important;
+        }
+      }
+
+      // 顶部搜索
+      .search-bar-control {
+        .list-search-bar {
+          &::placeholder {
+            color: @text-secondary-color !important;
+          }
+
+          &:focus {
+            border: 1px solid @text-light-color !important;
+          }
+
+          color: @text-light-color !important;
+          border: 1px solid @border-color !important;
+          background-color: @background-color !important;
+          box-shadow: none !important;
+        }
+      }
+
+      // 筛选过滤器
+      .pull-right {
+        .filter-dropdown-button {
+          .filter-title {
+            color: @text-color !important;
+
+            &:hover {
+              color: @text-light-color !important;
+            }
+          }
+        }
+
+        .dropdown-menu {
+          box-shadow: @dropdown-shadow !important;
+          border: @dropdown-border !important;
+
+          .filter-list {
+            background: @dropdown-background-color !important;
+          }
+
+          .filter-dropdown-menu-items {
+            background: @dropdown-background-color !important;
+
+            .filter-dropdown-menu-item {
+              border-color: @border-color !important;
+            }
+          }
+        }
+      }
+
+      // 问题列表
+      .question-list-table {
+        thead {
+          color: @text-light-color !important;
+        }
+
+        tbody tr {
+          &:hover {
+            background: @table-hover-color !important;
+          }
+
+          &:nth-child(2n + 1) {
+            &:hover {
+              background: @table-hover-color !important;
+            }
+
+            background: @table-odd-color !important;
+          }
+
+          td {
+            .level-easy {
+              color: @green-color !important;
+            }
+
+            .level-medium {
+              color: @yellow-color !important;
+            }
+
+            .level-hard {
+              color: @red-color !important;
+            }
+
+            .progress {
+              background: @text-secondary-color !important;
+
+              .progress-bar-success {
+                background: @green-color !important;
+              }
+
+              .progress-bar-warning {
+                background: @yellow-color !important;
+              }
+            }
+          }
+        }
+
+        tbody.reactable-pagination {
+          .row-selector select {
+            color: @text-color !important;
+            border: 1px solid @border-color !important;
+            background: transparent !important;
+          }
+
+          .pagination-buttons {
+            a {
+              color: @text-color !important;
+              border: 1px solid @border-color !important;
+              background: @background-color !important;
+
+              &.reactable-current-page {
+                color: @grey0-color !important;
+                border: 1px solid @primary-color !important;
+                background: @primary-color !important;
+
+                &:hover {
+                  border: 1px solid @primary4-color !important;
+                  background: @primary4-color !important;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
