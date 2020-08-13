@@ -363,4 +363,23 @@
     border: 1px solid #218443 !important;
     background: #218443 !important;
   }
+  #user-progress-app .wrapper__2b4L img {
+    filter: brightness(0.8);
+  }
+  #user-progress-app .css-96hr2l-CalendarWrapper > div:first-child {
+    color: #dbdbdb !important;
+  }
+  #user-progress-app .css-96hr2l-CalendarWrapper > div:nth-child(2) > div > div:hover {
+    background: #2b2b2b !important;
+  }
+  #user-progress-app .css-96hr2l-CalendarWrapper > div:last-child {
+    color: #b3b3b3 !important;
+    background: #2b2b2b !important;
+  }
+  #user-progress-app .css-96hr2l-CalendarWrapper > div:last-child span:nth-child(2) {
+    color: #5ab726 !important;
+  }
+  #user-progress-app .css-96hr2l-CalendarWrapper > div:last-child span:last-child {
+    color: #b3b3b3 !important;
+  }
 }

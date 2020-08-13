@@ -211,4 +211,36 @@
       }
     }
   }
+
+  // 侧边
+  #user-progress-app {
+    // 广告
+    .wrapper__2b4L img {
+      filter: brightness(0.8);
+    }
+
+    // 日历
+    .css-96hr2l-CalendarWrapper {
+      & > div:first-child {
+        color: @title-color !important;
+      }
+
+      & > div:nth-child(2) > div > div:hover {
+        background: @card-background-color !important;
+      }
+
+      & > div:last-child {
+        color: @text-color !important;
+        background: @card-background-color !important;
+
+        span:nth-child(2) {
+          color: @green-color !important;
+        }
+
+        span:last-child {
+          color: @text-color !important;
+        }
+      }
+    }
+  }
 }
