@@ -7,4 +7,49 @@
 // See the Mulan PSL v2 for more details.
 
 @-moz-document url-prefix("https://leetcode-cn.com/playground/") {
+  @import "less/common";
+
+  #app {
+    background: @background-color !important;
+
+    .section-seperator {
+      hr.line {
+        border-top: 1px solid @border-color !important;
+      }
+
+      .btn.folder-name {
+        .btn-default(@background-color);
+      }
+
+      .hover-panel {
+        background: @card-background-color !important;
+        box-shadow: @card-shadow !important;
+
+        .square {
+          background: @card-background-color !important;
+        }
+      }
+    }
+
+    .folder-base {
+      .playground-list-item {
+        background: @card-background-color !important;
+        box-shadow: @card-shadow !important;
+
+        .title .text-gray {
+          color: @title-color !important;
+        }
+
+        .btn-set {
+          border-top: 1px solid @border-color !important;
+
+          & * {
+            color: @text-color !important;
+          }
+        }
+      }
+    }
+  }
+
+  .swal-modal-partial();
 }

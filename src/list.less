@@ -93,25 +93,7 @@
   }
 
   // 分享按钮弹出框
-  .swal2-modal.swal2-noanimation {
-    background: @card-background-color !important;
-
-    .swal2-title#swal2-title {
-      color: @title-color !important;
-    }
-
-    input.swal2-input {
-      .ipt-default();
-    }
-
-    button.swal2-confirm {
-      .btn-primary();
-    }
-
-    button.swal2-cancel {
-      .btn-default(transparent, @red6-color);
-    }
-  }
+  .swal-modal-partial();
 
   // 各种按钮弹出框
   #lc-alert-container {
