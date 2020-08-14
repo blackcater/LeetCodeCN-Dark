@@ -242,6 +242,268 @@
   }
 }
 
+@-moz-document url-prefix("https://leetcode-cn.com/contribute/") {
+  html,
+  body {
+    color: #b3b3b3 !important;
+    background: #1c1c1c !important;
+  }
+  h1 {
+    color: #dbdbdb !important;
+  }
+  .callout {
+    border: 1px solid #2b2b2b;
+  }
+  .callout.callout-info {
+    border-left-width: 5px !important;
+    border-left-color: #4191ff !important;
+  }
+  .callout.callout-info h4 {
+    color: #4191ff !important;
+  }
+  .ant-tooltip.ant-tooltip-placement-top .ant-tooltip-arrow,
+  .ant-tooltip.ant-tooltip-placement-topLeft .ant-tooltip-arrow,
+  .ant-tooltip.ant-tooltip-placement-topRight .ant-tooltip-arrow {
+    border-top-color: #2b2b2b !important;
+  }
+  .ant-tooltip .ant-tooltip-inner {
+    color: #b3b3b3 !important;
+    background: #2b2b2b !important;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3) !important;
+  }
+  .ant-popover.ant-popover-placement-top .ant-popover-arrow,
+  .ant-popover.ant-popover-placement-topLeft .ant-popover-arrow,
+  .ant-popover.ant-popover-placement-topRight .ant-popover-arrow {
+    border-top-color: #2b2b2b !important;
+  }
+  .ant-popover .ant-popover-inner {
+    color: #b3b3b3 !important;
+    background: #2b2b2b !important;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3) !important;
+  }
+  .content-wrapper::after {
+    content: "";
+    display: block;
+    padding: 20px;
+    background: #1c1c1c;
+  }
+  #noj-navbar > div {
+    color: #dbdbdb !important;
+    background: #2b2b2b !important;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.05) !important;
+  }
+  #noj-navbar nav li {
+    color: #dbdbdb !important;
+  }
+  #noj-navbar .css-1n67oxn-LightImg {
+    display: none !important;
+  }
+  #noj-navbar .css-56tabg-DarkImg {
+    display: block !important;
+  }
+  #noj-navbar a.css-tgtq8y-BaseButtonComponent-AppButton {
+    color: #5ab726 !important;
+    box-shadow: inset 0 0 0 1px #5ab726 !important;
+  }
+  #noj-navbar a.css-tgtq8y-BaseButtonComponent-AppButton:hover {
+    color: #57c47d !important;
+    background: #06190d !important;
+    box-shadow: inset 0 0 0 1px #57c47d !important;
+  }
+  #lc-footer {
+    padding: 15px 0 !important;
+    color: #fff !important;
+    background: #262626 !important;
+    border-top: 1px solid #5c5c5c !important;
+  }
+  #lc-footer hr {
+    display: none !important;
+  }
+  #lc-footer .row:first-of-type {
+    margin-bottom: 10px !important;
+    height: 38px !important;
+  }
+  #lc-footer .row.chinese-license a {
+    color: #fff !important;
+  }
+  #lc-footer .copyright span {
+    color: #fff !important;
+  }
+  #lc-footer .links a {
+    color: #fff !important;
+  }
+  ::-moz-selection {
+    color: #fff !important;
+    background: #37474f !important;
+  }
+  ::selection {
+    color: #fff !important;
+    background: #37474f !important;
+  }
+  .ant-dropdown.css-mmpgiv-DropdownComponentClassName {
+    filter: invert(0.88) hue-rotate(180deg);
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer {
+    background: #2b2b2b !important;
+    box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.54) !important;
+    border: 1px solid #3d3d3d !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
+    color: #ffa119 !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
+    color: #ffa119 !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
+    fill: #ffa119 !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a {
+    color: #b3b3b3 !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a:hover {
+    background: #3d3d3d !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a svg {
+    fill: #b3b3b3 !important;
+  }
+  #contribution-app .contribute-landing-background {
+    background: #1c1c1c !important;
+  }
+  #contribution-app .contribute-landing-left-panel {
+    background: #1c1c1c !important;
+  }
+  #contribution-app .contribute-landing-left-panel .contribute-big-text {
+    color: #dbdbdb !important;
+  }
+  #contribution-app .contribute-landing-left-panel .contribute-landing-description {
+    color: #b3b3b3 !important;
+  }
+  #contribution-app .contribute-landing-left-panel .Select-control {
+    color: #dbdbdb !important;
+    border: 1px solid #cca766 !important;
+    background-color: #1c1c1c !important;
+    box-shadow: none !important;
+  }
+  #contribution-app .contribute-landing-left-panel .Select-control::-moz-placeholder {
+    color: #5c5c5c !important;
+  }
+  #contribution-app .contribute-landing-left-panel .Select-control::placeholder {
+    color: #5c5c5c !important;
+  }
+  #contribution-app .contribute-landing-left-panel .Select-control .Select-value {
+    background: #1c1c1c !important;
+  }
+  #contribution-app .contribute-landing-left-panel .Select-control .Select-value .Select-value-label {
+    color: #b3b3b3 !important;
+  }
+  #contribution-app .contribute-landing-left-panel .Select-control + .Select-menu-outer {
+    border: none !important;
+    filter: invert(0.88) hue-rotate(180deg);
+  }
+  #contribution-app .contribute-landing-left-panel .contribute-nav-btn {
+    color: #ffffff !important;
+    border: none !important;
+    background: #cca766 !important;
+  }
+  #contribution-app .contribute-landing-left-panel .contribute-nav-btn:hover {
+    color: #dbdbdb !important;
+    background: #937849 !important;
+  }
+  #contribution-app .contribute-landing-right-panel {
+    background: #2b2b2b !important;
+    border-left: 1px solid #3d3d3d !important;
+  }
+  #contribution-app .contribute-landing-right-panel .contribute-no-contribution-placeholder {
+    color: #b3b3b3 !important;
+  }
+  #contribution-app .layout-shim {
+    background: #1c1c1c !important;
+  }
+  #contribution-app .layout-right-background {
+    border-left: 1px solid #3d3d3d !important;
+    background: #1c1c1c !important;
+  }
+  #contribution-app .contribute-layout-body-main {
+    background: #1c1c1c !important;
+  }
+  #contribution-app .contribute-layout-body-main .contribute-form .title {
+    color: #dbdbdb !important;
+  }
+  #contribution-app .contribute-layout-body-main .contribute-form .desc,
+  #contribution-app .contribute-layout-body-main .contribute-form .subtitle {
+    color: #b3b3b3 !important;
+  }
+  #contribution-app .contribute-layout-body-main .contribute-form .subtitle + input,
+  #contribution-app .contribute-layout-body-main .contribute-form textarea {
+    color: #dbdbdb !important;
+    border: 1px solid #cca766 !important;
+    background-color: #1c1c1c !important;
+    box-shadow: none !important;
+  }
+  #contribution-app .contribute-layout-body-main .contribute-form .subtitle + input::-moz-placeholder,
+  #contribution-app .contribute-layout-body-main .contribute-form textarea::-moz-placeholder {
+    color: #5c5c5c !important;
+  }
+  #contribution-app .contribute-layout-body-main .contribute-form .subtitle + input::placeholder,
+  #contribution-app .contribute-layout-body-main .contribute-form textarea::placeholder {
+    color: #5c5c5c !important;
+  }
+  #contribution-app .contribute-layout-body-main .contribute-form .Select-control {
+    color: #dbdbdb !important;
+    border: 1px solid #cca766 !important;
+    background-color: #1c1c1c !important;
+    box-shadow: none !important;
+  }
+  #contribution-app .contribute-layout-body-main .contribute-form .Select-control::-moz-placeholder {
+    color: #5c5c5c !important;
+  }
+  #contribution-app .contribute-layout-body-main .contribute-form .Select-control::placeholder {
+    color: #5c5c5c !important;
+  }
+  #contribution-app .contribute-layout-body-main .contribute-form .Select-control .Select-value {
+    background: #1c1c1c !important;
+  }
+  #contribution-app .contribute-layout-body-main .contribute-form .Select-control .Select-value .Select-value-label {
+    color: #b3b3b3 !important;
+  }
+  #contribution-app .contribute-layout-body-main .contribute-form .Select-control + .Select-menu-outer {
+    border: none !important;
+    filter: invert(0.88) hue-rotate(180deg);
+  }
+  #contribution-app .contribute-layout-body-right {
+    border-left: 1px solid #3d3d3d !important;
+    background: #1c1c1c !important;
+  }
+  #contribution-app .contribute-layout-body-right .contribute-border-box {
+    background: #2b2b2b !important;
+    border: none !important;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3) !important;
+  }
+  #contribution-app .contribute-layout-body-right .contribute-border-box .lightbulb {
+    color: #cca766 !important;
+  }
+  #contribution-app .contribute-layout-body-right .contribute-border-box .hint strong,
+  #contribution-app .contribute-layout-body-right .contribute-border-box .hint .header {
+    color: #dbdbdb;
+  }
+  #contribution-app .contribute-layout-body-right .contribute-border-box .hint p {
+    color: #b3b3b3 !important;
+  }
+  #contribution-app .contribute-layout-footer-left {
+    border-top: 1px solid #3d3d3d !important;
+    background: #2b2b2b !important;
+  }
+  #contribution-app .contribute-layout-footer-left .contribute-nav-btn {
+    color: #ffffff !important;
+    border: none !important;
+    background: #cca766 !important;
+  }
+  #contribution-app .contribute-layout-footer-left .contribute-nav-btn:hover {
+    color: #dbdbdb !important;
+    background: #937849 !important;
+  }
+}
+
 @-moz-document url("https://leetcode-cn.com/") {
   html,
   body {
