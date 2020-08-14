@@ -2,6 +2,16 @@
 
 > 中国区 LeetCode 支持黑色主题。
 
+## 目录
+
+- [目录](#目录)
+- [前言](#前言)
+- [安装](#安装)
+  - [安装 Stylus 或 xStylus](#安装-stylus-或-xstylus)
+  - [安装 LeetCodeCN-Dark](#安装-leetcodecn-dark)
+- [样式支持](#样式支持)
+- [代码贡献](#代码贡献)
+
 ## 前言
 
 LeetCode 估计最近是在样式迁移，很多页面还不支持黑色主题，从一个页面跳转另一个页面经常样式不统一让人蛋疼。为了解决我和你的强迫症，我写了这个项目。
@@ -14,7 +24,7 @@ LeetCode 估计最近是在样式迁移，很多页面还不支持黑色主题�
 
 样式覆盖需要 [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) 或 [xStylus](https://chrome.google.com/webstore/detail/xstyle/hncgkmhphmncjohllpoleelnibpmccpj) 浏览器插件支持，因此你需要先安装他们。
 
-[具体安装方式请参考(https://github.com/openstyles/stylus/wiki/Usercss#how-do-i-install-usercss)
+> [具体安装方式请参考](https://github.com/openstyles/stylus/wiki/Usercss#how-do-i-install-usercss)
 
 ### 安装 LeetCodeCN-Dark
 
