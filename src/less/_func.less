@@ -31,6 +31,17 @@
   }
 }
 
+.btn-gold() {
+  color: @white-color !important;
+  border: none !important;
+  background: @gold-color !important;
+
+  &:hover {
+    color: @text-light-color !important;
+    background: @gold4-color !important;
+  }
+}
+
 .ipt-default() {
   &::placeholder {
     color: @text-secondary-color !important;
@@ -42,6 +53,17 @@
 
   color: @text-light-color !important;
   border: 1px solid @border-color !important;
+  background-color: @background-color !important;
+  box-shadow: none !important;
+}
+
+.ipt-gold() {
+  &::placeholder {
+    color: @text-secondary-color !important;
+  }
+
+  color: @text-light-color !important;
+  border: 1px solid @gold-color !important;
   background-color: @background-color !important;
   box-shadow: none !important;
 }
