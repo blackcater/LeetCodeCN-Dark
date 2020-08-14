@@ -1,3 +1,11 @@
+// Copyright (c) 2020 blackcater
+// [Software Name] is licensed under Mulan PSL v2.
+// You can use this software according to the terms and conditions of the Mulan PSL v2.
+// You may obtain a copy of Mulan PSL v2 at:
+//             http://license.coscl.org.cn/MulanPSL2
+// THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT, MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
+// See the Mulan PSL v2 for more details.
+
 @import "_variable";
 @import "_func.less";
 
@@ -6,6 +14,55 @@ html,
 body {
   color: @text-color !important;
   background: @background-color !important;
+}
+
+h1 {
+  color: @title-color !important;
+}
+
+.callout {
+  border: 1px solid @card-background-color;
+
+  &.callout-info {
+    border-left-width: 5px !important;
+    border-left-color: @blue-color !important;
+
+    h4 {
+      color: @blue-color !important;
+    }
+  }
+}
+
+.ant-tooltip {
+  &.ant-tooltip-placement-top,
+  &.ant-tooltip-placement-topLeft,
+  &.ant-tooltip-placement-topRight {
+    .ant-tooltip-arrow {
+      border-top-color: @card-background-color !important;
+    }
+  }
+
+  .ant-tooltip-inner {
+    color: @text-color !important;
+    background: @card-background-color !important;
+    box-shadow: @card-shadow !important;
+  }
+}
+
+.ant-popover {
+  &.ant-popover-placement-top,
+  &.ant-popover-placement-topLeft,
+  &.ant-popover-placement-topRight {
+    .ant-popover-arrow {
+      border-top-color: @card-background-color !important;
+    }
+  }
+
+  .ant-popover-inner {
+    color: @text-color !important;
+    background: @card-background-color !important;
+    box-shadow: @card-shadow !important;
+  }
 }
 
 // Header

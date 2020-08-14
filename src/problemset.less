@@ -1,3 +1,11 @@
+// Copyright (c) 2020 blackcater
+// [Software Name] is licensed under Mulan PSL v2.
+// You can use this software according to the terms and conditions of the Mulan PSL v2.
+// You may obtain a copy of Mulan PSL v2 at:
+//             http://license.coscl.org.cn/MulanPSL2
+// THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT, MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
+// See the Mulan PSL v2 for more details.
+
 @-moz-document url-prefix("https://leetcode-cn.com/problemset/") {
   @import "less/common.less";
 
@@ -91,18 +99,7 @@
       // 顶部搜索
       .search-bar-control {
         .list-search-bar {
-          &::placeholder {
-            color: @text-secondary-color !important;
-          }
-
-          &:focus {
-            border: 1px solid @text-light-color !important;
-          }
-
-          color: @text-light-color !important;
-          border: 1px solid @border-color !important;
-          background-color: @background-color !important;
-          box-shadow: none !important;
+          .ipt-default();
         }
       }
 
@@ -131,6 +128,10 @@
 
             .filter-dropdown-menu-item {
               border-color: @border-color !important;
+
+              &:hover {
+                background: @grey4-color !important;
+              }
             }
           }
         }
@@ -437,6 +438,17 @@
         10%,
         @background-color
       ) !important;
+    }
+  }
+
+  // 每日一题
+  .css-15n5f1h-TodoTooltipWrapper {
+    span {
+      color: @text-color !important;
+    }
+
+    a:hover {
+      color: @primary6-color !important;
     }
   }
 }
