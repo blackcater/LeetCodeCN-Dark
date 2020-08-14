@@ -7,4 +7,65 @@
 // See the Mulan PSL v2 for more details.
 
 @-moz-document url-prefix("https://leetcode-cn.com/points/") {
+  @import "less/common";
+
+  #points-app {
+    .page-title {
+      color: @title-color !important;
+    }
+
+    .points-list-item {
+      &:hover {
+        .points-list-item-detial {
+          box-shadow: @card-shadow !important;
+        }
+      }
+
+      .date {
+        color: @text-color !important;
+      }
+
+      .points-list-item-detial {
+        background: @card-background-color !important;
+
+        th.points {
+          background: @card-background-color !important;
+
+          & > img {
+            filter: brightness(0.8);
+          }
+
+          & > div {
+            color: @gold-color !important;
+          }
+        }
+
+        th.mission {
+          .title {
+            color: @white-color !important;
+          }
+
+          .description {
+            color: @text-color !important;
+          }
+        }
+      }
+    }
+  }
+
+  // 右上角积分
+  .total-points-base {
+    .total-points {
+      background: @card-background-color !important;
+      border-color: @border-color !important;
+
+      .label {
+        color: @title-color !important;
+      }
+
+      .points {
+        color: @gold-color !important;
+      }
+    }
+  }
 }
