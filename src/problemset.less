@@ -142,7 +142,7 @@
           color: @text-light-color !important;
         }
 
-        tbody tr {
+        tbody.reactable-data tr {
           &:hover {
             background: @table-hover-color !important;
           }
@@ -183,6 +183,10 @@
         }
 
         tbody.reactable-pagination {
+          tr {
+            background: @table-odd-color !important;
+          }
+
           .row-selector select {
             color: @text-color !important;
             border: 1px solid @border-color !important;
@@ -212,7 +216,7 @@
     }
   }
 
-  // 侧边
+  // 用户进度
   #user-progress-app {
     // 广告
     .wrapper__2b4L img {
@@ -346,6 +350,93 @@
           border-left: 1px @border-color solid;
         }
       }
+    }
+  }
+
+  // 热门推荐
+  #list-card-app {
+    .sidebar-title {
+      color: @title-color !important;
+    }
+
+    .list-group-item {
+      background: @background-color !important;
+
+      &:hover {
+        background: @card-background-color !important;
+        box-shadow: @card-shadow !important;
+      }
+
+      a {
+        color: @text-color !important;
+
+        i.fa {
+          filter: brightness(0.8);
+        }
+      }
+    }
+
+    hr.line {
+      border-color: @grey7-color !important;
+    }
+  }
+
+  // 标签模块
+  #topic-module {
+    .tags-title {
+      color: @title-color !important;
+    }
+
+    #current-topic-tags,
+    #all-topic-tags {
+      a {
+        .btn-default();
+
+        &:hover {
+          span.text-gray {
+            color: @primary6-color !important;
+          }
+        }
+
+        span.text-gray {
+          color: @text-color !important;
+        }
+
+        span.badge {
+          color: @text-light-color !important;
+          background: @blue-color !important;
+        }
+      }
+    }
+
+    #expand-topic {
+      hr.line {
+        border-color: @grey7-color !important;
+      }
+
+      div.btn {
+        .btn-default(@background-color);
+      }
+    }
+  }
+
+  // 企业题库
+  #enterprise-tags {
+    .css-msommy-Header {
+      color: @title-color !important;
+    }
+
+    a {
+      color: @text-color !important;
+    }
+
+    a[href="/interview/"] {
+      color: @text-color !important;
+      background: linear-gradient(
+        rgba(0, 0, 0, 0),
+        10%,
+        @background-color
+      ) !important;
     }
   }
 }

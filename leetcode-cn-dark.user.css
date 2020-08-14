@@ -323,32 +323,35 @@
   #question-app .question-list-base .question-list-table thead {
     color: #dbdbdb !important;
   }
-  #question-app .question-list-base .question-list-table tbody tr:hover {
+  #question-app .question-list-base .question-list-table tbody.reactable-data tr:hover {
     background: #3d3d3d !important;
   }
-  #question-app .question-list-base .question-list-table tbody tr:nth-child(2n + 1) {
+  #question-app .question-list-base .question-list-table tbody.reactable-data tr:nth-child(2n + 1) {
     background: #2b2b2b !important;
   }
-  #question-app .question-list-base .question-list-table tbody tr:nth-child(2n + 1):hover {
+  #question-app .question-list-base .question-list-table tbody.reactable-data tr:nth-child(2n + 1):hover {
     background: #3d3d3d !important;
   }
-  #question-app .question-list-base .question-list-table tbody tr td .level-easy {
+  #question-app .question-list-base .question-list-table tbody.reactable-data tr td .level-easy {
     color: #5ab726 !important;
   }
-  #question-app .question-list-base .question-list-table tbody tr td .level-medium {
+  #question-app .question-list-base .question-list-table tbody.reactable-data tr td .level-medium {
     color: #ffa119 !important;
   }
-  #question-app .question-list-base .question-list-table tbody tr td .level-hard {
+  #question-app .question-list-base .question-list-table tbody.reactable-data tr td .level-hard {
     color: #ef4743 !important;
   }
-  #question-app .question-list-base .question-list-table tbody tr td .progress {
+  #question-app .question-list-base .question-list-table tbody.reactable-data tr td .progress {
     background: #5c5c5c !important;
   }
-  #question-app .question-list-base .question-list-table tbody tr td .progress .progress-bar-success {
+  #question-app .question-list-base .question-list-table tbody.reactable-data tr td .progress .progress-bar-success {
     background: #5ab726 !important;
   }
-  #question-app .question-list-base .question-list-table tbody tr td .progress .progress-bar-warning {
+  #question-app .question-list-base .question-list-table tbody.reactable-data tr td .progress .progress-bar-warning {
     background: #ffa119 !important;
+  }
+  #question-app .question-list-base .question-list-table tbody.reactable-pagination tr {
+    background: #2b2b2b !important;
   }
   #question-app .question-list-base .question-list-table tbody.reactable-pagination .row-selector select {
     color: #b3b3b3 !important;
@@ -467,6 +470,76 @@
   }
   #user-progress-app .progress-module li.points-info .text-center:nth-child(n + 2) {
     border-left: 1px #3d3d3d solid;
+  }
+  #list-card-app .sidebar-title {
+    color: #dbdbdb !important;
+  }
+  #list-card-app .list-group-item {
+    background: #1c1c1c !important;
+  }
+  #list-card-app .list-group-item:hover {
+    background: #2b2b2b !important;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3) !important;
+  }
+  #list-card-app .list-group-item a {
+    color: #b3b3b3 !important;
+  }
+  #list-card-app .list-group-item a i.fa {
+    filter: brightness(0.8);
+  }
+  #list-card-app hr.line {
+    border-color: #b3b3b3 !important;
+  }
+  #topic-module .tags-title {
+    color: #dbdbdb !important;
+  }
+  #topic-module #current-topic-tags a,
+  #topic-module #all-topic-tags a {
+    color: #b3b3b3 !important;
+    border: 1px solid #3d3d3d !important;
+    background: transparent !important;
+  }
+  #topic-module #current-topic-tags a:hover,
+  #topic-module #all-topic-tags a:hover {
+    color: #57c47d !important;
+    border: 1px solid #57c47d !important;
+    background: #06190d !important;
+  }
+  #topic-module #current-topic-tags a:hover span.text-gray,
+  #topic-module #all-topic-tags a:hover span.text-gray {
+    color: #57c47d !important;
+  }
+  #topic-module #current-topic-tags a span.text-gray,
+  #topic-module #all-topic-tags a span.text-gray {
+    color: #b3b3b3 !important;
+  }
+  #topic-module #current-topic-tags a span.badge,
+  #topic-module #all-topic-tags a span.badge {
+    color: #dbdbdb !important;
+    background: #4191ff !important;
+  }
+  #topic-module #expand-topic hr.line {
+    border-color: #b3b3b3 !important;
+  }
+  #topic-module #expand-topic div.btn {
+    color: #b3b3b3 !important;
+    border: 1px solid #3d3d3d !important;
+    background: #1c1c1c !important;
+  }
+  #topic-module #expand-topic div.btn:hover {
+    color: #57c47d !important;
+    border: 1px solid #57c47d !important;
+    background: #06190d !important;
+  }
+  #enterprise-tags .css-msommy-Header {
+    color: #dbdbdb !important;
+  }
+  #enterprise-tags a {
+    color: #b3b3b3 !important;
+  }
+  #enterprise-tags a[href="/interview/"] {
+    color: #b3b3b3 !important;
+    background: linear-gradient(rgba(0, 0, 0, 0), 10%, #1c1c1c) !important;
   }
 }
 
