@@ -7,4 +7,131 @@
 // See the Mulan PSL v2 for more details.
 
 @-moz-document url-prefix("https://leetcode-cn.com/list/") {
+  @import "less/common.less";
+
+  .favorite-navigation {
+    border-bottom: 1px solid @border-color !important;
+
+    li[data-is-highlighted="true"] {
+      color: @blue-color !important;
+      box-shadow: 0 1px 0 @blue-color !important;
+    }
+  }
+
+  ul.list-group {
+    box-shadow: @card-shadow !important;
+
+    li.list-group-item {
+      color: @text-light-color !important;
+      border: 1px solid @card-background-color !important;
+      background: @background-color !important;
+
+      &:hover {
+        background: @card-background-color !important;
+      }
+
+      a {
+        color: @text-color !important;
+      }
+    }
+  }
+
+  .panel {
+    color: @text-color !important;
+    background: @background-color !important;
+    border-color: @card-background-color !important;
+    box-shadow: @card-shadow !important;
+
+    &.panel-success {
+      .panel-heading {
+        color: @green-color !important;
+      }
+    }
+
+    .panel-heading {
+      color: @title-color !important;
+      border: none !important;
+      background: @card-background-color !important;
+
+      .toggle-group .toggle-handle {
+        border: 1px solid @border-color !important;
+        background: @border-color !important;
+      }
+
+      button#share-button,
+      button#clone-button,
+      button.btn {
+        .btn-default();
+      }
+    }
+
+    .list-group {
+      .list-group-item {
+        color: @text-color !important;
+        border: 1px solid @card-background-color !important;
+        background: @background-color !important;
+
+        &.question {
+          color: @title-color !important;
+
+          a {
+            color: @text-color !important;
+          }
+        }
+
+        &.active {
+          color: @white-color !important;
+          background: @blue-color !important;
+        }
+      }
+    }
+  }
+
+  // 进度
+  .progress-module {
+    .progress-module-partial();
+  }
+
+  // 分享按钮弹出框
+  .swal2-modal.swal2-noanimation {
+    background: @card-background-color !important;
+
+    .swal2-title#swal2-title {
+      color: @title-color !important;
+    }
+
+    input.swal2-input {
+      .ipt-default();
+    }
+
+    button.swal2-confirm {
+      .btn-primary();
+    }
+
+    button.swal2-cancel {
+      .btn-default(transparent, @red6-color);
+    }
+  }
+
+  // 各种按钮弹出框
+  #lc-alert-container {
+    .inner-content__3Pbg {
+      background: @card-background-color !important;
+
+      .lc-alert-title__3sym,
+      .close-modal-btn__1W8e > div {
+        color: @title-color !important;
+      }
+
+      input.form-control {
+        .ipt-default();
+      }
+    }
+
+    .lc-alert-button-group__2THN {
+      & > span:hover {
+        background: @grey4-color !important;
+      }
+    }
+  }
 }

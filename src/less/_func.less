@@ -8,14 +8,14 @@
 
 @import "_variable";
 
-.btn-default(@bg: transparent) {
+.btn-default(@bg: transparent, @color: @primary6-color) {
   color: @text-color !important;
   border: 1px solid @border-color !important;
   background: @bg !important;
 
   &:hover {
-    color: @primary6-color !important;
-    border: 1px solid @primary6-color !important;
+    color: @color !important;
+    border: 1px solid @color !important;
     background: @primary0-color !important;
   }
 }
