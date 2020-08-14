@@ -83,6 +83,9 @@
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a {
     color: #b3b3b3 !important;
   }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a:hover {
+    background: #3d3d3d !important;
+  }
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a svg {
     fill: #b3b3b3 !important;
   }
@@ -222,6 +225,9 @@
   }
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a {
     color: #b3b3b3 !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a:hover {
+    background: #3d3d3d !important;
   }
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a svg {
     fill: #b3b3b3 !important;
@@ -382,4 +388,85 @@
   #user-progress-app .css-96hr2l-CalendarWrapper > div:last-child span:last-child {
     color: #b3b3b3 !important;
   }
+  #user-progress-app .progress-module .sidebar-title {
+    color: #dbdbdb !important;
+  }
+  #user-progress-app .progress-module li.session-select {
+    color: #b3b3b3 !important;
+    background: #2b2b2b !important;
+  }
+  #user-progress-app .progress-module li.session-select .session-manager-btn button.dropdown-toggle {
+    color: #b3b3b3 !important;
+    border: 1px solid #3d3d3d !important;
+    background: transparent !important;
+  }
+  #user-progress-app .progress-module li.session-select .session-manager-btn button.dropdown-toggle:hover {
+    color: #57c47d !important;
+    border: 1px solid #57c47d !important;
+    background: #06190d !important;
+  }
+  #user-progress-app .progress-module li.session-select .session-manager-btn ul.session-list {
+    background: #2b2b2b !important;
+    box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.54) !important;
+  }
+  #user-progress-app .progress-module li.session-select .session-manager-btn ul.session-list a {
+    color: #b3b3b3 !important;
+  }
+  #user-progress-app .progress-module li.session-select .session-manager-btn ul.session-list a:hover {
+    background: #3d3d3d !important;
+  }
+  #user-progress-app .progress-module li.session-select .session-manager-btn a.manage-btn {
+    color: #b3b3b3 !important;
+    border: 1px solid #3d3d3d !important;
+    background: transparent !important;
+  }
+  #user-progress-app .progress-module li.session-select .session-manager-btn a.manage-btn:hover {
+    color: #57c47d !important;
+    border: 1px solid #57c47d !important;
+    background: #06190d !important;
+  }
+  #user-progress-app .progress-module li.chart-elem {
+    background: #1c1c1c !important;
+    border: 1px solid #2b2b2b !important;
+  }
+  #user-progress-app .progress-module li.chart-elem .progress-status {
+    border-top: 1px dotted #3d3d3d !important;
+  }
+  #user-progress-app .progress-module li.chart-elem .progress-status .text-primary {
+    color: #4191ff !important;
+  }
+  #user-progress-app .progress-module li.chart-elem .progress-status .text-success {
+    color: #5ab726 !important;
+  }
+  #user-progress-app .progress-module li.chart-elem .progress-status .text-warning {
+    color: #ffa119 !important;
+  }
+  #user-progress-app .progress-module li.chart-elem svg.highcharts-root g.highcharts-tooltip > path:last-of-type {
+    fill: #1c1c1c !important;
+  }
+  #user-progress-app .progress-module li.chart-elem svg.highcharts-root g.highcharts-tooltip > text:last-child {
+    color: #b3b3b3 !important;
+    fill: #b3b3b3 !important;
+  }
+  #user-progress-app .progress-module li.chart-elem svg.highcharts-root g.highcharts-button.highcharts-button-hover rect {
+    fill: #2b2b2b !important;
+  }
+  #user-progress-app .progress-module li.chart-elem svg.highcharts-root g.highcharts-button.highcharts-button-hover text {
+    color: #b3b3b3 !important;
+    fill: #b3b3b3 !important;
+  }
+  #user-progress-app .progress-module li.chart-elem svg.highcharts-root g.highcharts-button text {
+    color: #b3b3b3 !important;
+    fill: #b3b3b3 !important;
+  }
+  #user-progress-app .progress-module li.points-info {
+    background: #2b2b2b !important;
+  }
+  #user-progress-app .progress-module li.points-info .info-value {
+    color: #b3b3b3 !important;
+  }
+  #user-progress-app .progress-module li.points-info .text-center:nth-child(n + 2) {
+    border-left: 1px #3d3d3d solid;
+  }
 }
+
