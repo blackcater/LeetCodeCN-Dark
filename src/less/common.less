@@ -65,6 +65,16 @@ h1 {
   }
 }
 
+// 中间内容区
+.content-wrapper {
+  &::after {
+    content: "";
+    display: block;
+    padding: 20px;
+    background: @background-color;
+  }
+}
+
 // Header
 #noj-navbar {
   & > div {

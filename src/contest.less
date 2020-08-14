@@ -7,4 +7,184 @@
 // See the Mulan PSL v2 for more details.
 
 @-moz-document url-prefix("https://leetcode-cn.com/contest/") {
+  @import "less/common.less";
+
+  #base_content {
+    background: @background-color !important;
+
+    // 头部广告
+    .contest-cards-base {
+      .contest-card {
+        filter: brightness(0.8);
+      }
+    }
+
+    // 全球排名
+    .ranking-card-base {
+      .ranking-card-title {
+        color: @title-color !important;
+      }
+
+      // 前三
+      .top-3-base {
+        a.winner {
+          box-shadow: @card-shadow;
+
+          .name-tag .content {
+            color: @gold-color !important;
+            background: @card-background-color !important;
+            box-shadow: @card-shadow;
+          }
+        }
+      }
+
+      // 其他
+      .ranking-list-base {
+        color: @text-color !important;
+        background: @card-background-color !important;
+        box-shadow: @card-shadow;
+
+        .ranking-list-item {
+          &:hover {
+            background: @grey4-color !important;
+          }
+
+          .avatar {
+            filter: brightness(0.8);
+          }
+
+          .name-info {
+            .name {
+              color: @title-color !important;
+            }
+
+            .info {
+              color: @text-color !important;
+            }
+          }
+        }
+      }
+    }
+
+    // 往届竞赛
+    .contest-list-base {
+      background: @card-background-color !important;
+      box-shadow: @card-shadow !important;
+
+      .heading {
+        background: @grey2-color !important;
+
+        .title {
+          color: @title-color !important;
+        }
+
+        .info {
+          color: @text-color !important;
+        }
+
+        .random {
+          border: none !important;
+          background: @card-background-color !important;
+          box-shadow: @card-shadow;
+
+          &:hover {
+            background: linear-gradient(#c169c0, #ba40b8) !important;
+          }
+        }
+      }
+
+      table.contest-table {
+        thead {
+          tr {
+            th {
+              color: @title-color !important;
+              background: @grey2-color !important;
+            }
+          }
+        }
+
+        tbody {
+          tr {
+            td.contest-title {
+              .title {
+                color: @title-color !important;
+              }
+
+              .date {
+                color: @text-secondary-color !important;
+              }
+            }
+
+            td.contest-duration {
+              color: @text-secondary-color !important;
+
+              button {
+                filter: brightness(0.8);
+              }
+            }
+          }
+        }
+
+        tbody.reactable-pagination {
+          .pagination-buttons {
+            a {
+              color: @text-color !important;
+              border: 1px solid @border-color !important;
+              background: @background-color !important;
+
+              &.reactable-current-page {
+                color: @grey0-color !important;
+                border: 1px solid @primary-color !important;
+                background: @primary-color !important;
+
+                &:hover {
+                  border: 1px solid @primary4-color !important;
+                  background: @primary4-color !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // 分页器
+  .pagination-base__aILV {
+    ul.pagination {
+      li.prev-btn,
+      li.next-btn {
+        span {
+          background: @card-background-color !important;
+
+          &::after {
+            color: @text-color !important;
+          }
+        }
+      }
+
+      li.page-btn {
+        &:hover > a {
+          border: 1px solid @primary4-color !important;
+          background: @primary4-color !important;
+        }
+
+        &.active > a {
+          color: @grey0-color !important;
+          border: 1px solid @primary-color !important;
+          background: @primary-color !important;
+
+          &:hover {
+            background: @primary4-color !important;
+          }
+        }
+
+        & > a {
+          color: @text-color !important;
+          border: 1px solid @border-color !important;
+          background: @background-color !important;
+        }
+      }
+    }
+  }
 }

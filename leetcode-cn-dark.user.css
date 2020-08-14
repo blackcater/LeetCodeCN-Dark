@@ -6,8 +6,7 @@
 @updateURL    https://raw.githubusercontent.com/blackcater/LeetCodeCN-Dark/master/leetcode-cn-dark.user.css
 @author       Elon Tang <blackcater2015@gmail.com>
 ==/UserStyle== */
-
-@-moz-document url("https://leetcode-cn.com/") {
+@-moz-document url-prefix("https://leetcode-cn.com/contest/") {
   html,
   body {
     color: #b3b3b3 !important;
@@ -45,6 +44,12 @@
     color: #b3b3b3 !important;
     background: #2b2b2b !important;
     box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3) !important;
+  }
+  .content-wrapper::after {
+    content: "";
+    display: block;
+    padding: 20px;
+    background: #1c1c1c;
   }
   #noj-navbar > div {
     color: #dbdbdb !important;
@@ -122,10 +127,238 @@
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a svg {
     fill: #b3b3b3 !important;
   }
+  #base_content {
+    background: #1c1c1c !important;
+  }
+  #base_content .contest-cards-base .contest-card {
+    filter: brightness(0.8);
+  }
+  #base_content .ranking-card-base .ranking-card-title {
+    color: #dbdbdb !important;
+  }
+  #base_content .ranking-card-base .top-3-base a.winner {
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3);
+  }
+  #base_content .ranking-card-base .top-3-base a.winner .name-tag .content {
+    color: #cca766 !important;
+    background: #2b2b2b !important;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3);
+  }
+  #base_content .ranking-card-base .ranking-list-base {
+    color: #b3b3b3 !important;
+    background: #2b2b2b !important;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3);
+  }
+  #base_content .ranking-card-base .ranking-list-base .ranking-list-item:hover {
+    background: #3d3d3d !important;
+  }
+  #base_content .ranking-card-base .ranking-list-base .ranking-list-item .avatar {
+    filter: brightness(0.8);
+  }
+  #base_content .ranking-card-base .ranking-list-base .ranking-list-item .name-info .name {
+    color: #dbdbdb !important;
+  }
+  #base_content .ranking-card-base .ranking-list-base .ranking-list-item .name-info .info {
+    color: #b3b3b3 !important;
+  }
+  #base_content .contest-list-base {
+    background: #2b2b2b !important;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3) !important;
+  }
+  #base_content .contest-list-base .heading {
+    background: #262626 !important;
+  }
+  #base_content .contest-list-base .heading .title {
+    color: #dbdbdb !important;
+  }
+  #base_content .contest-list-base .heading .info {
+    color: #b3b3b3 !important;
+  }
+  #base_content .contest-list-base .heading .random {
+    border: none !important;
+    background: #2b2b2b !important;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3);
+  }
+  #base_content .contest-list-base .heading .random:hover {
+    background: linear-gradient(#c169c0, #ba40b8) !important;
+  }
+  #base_content .contest-list-base table.contest-table thead tr th {
+    color: #dbdbdb !important;
+    background: #262626 !important;
+  }
+  #base_content .contest-list-base table.contest-table tbody tr td.contest-title .title {
+    color: #dbdbdb !important;
+  }
+  #base_content .contest-list-base table.contest-table tbody tr td.contest-title .date {
+    color: #5c5c5c !important;
+  }
+  #base_content .contest-list-base table.contest-table tbody tr td.contest-duration {
+    color: #5c5c5c !important;
+  }
+  #base_content .contest-list-base table.contest-table tbody tr td.contest-duration button {
+    filter: brightness(0.8);
+  }
+  #base_content .contest-list-base table.contest-table tbody.reactable-pagination .pagination-buttons a {
+    color: #b3b3b3 !important;
+    border: 1px solid #3d3d3d !important;
+    background: #1c1c1c !important;
+  }
+  #base_content .contest-list-base table.contest-table tbody.reactable-pagination .pagination-buttons a.reactable-current-page {
+    color: #141414 !important;
+    border: 1px solid #2db55d !important;
+    background: #2db55d !important;
+  }
+  #base_content .contest-list-base table.contest-table tbody.reactable-pagination .pagination-buttons a.reactable-current-page:hover {
+    border: 1px solid #218443 !important;
+    background: #218443 !important;
+  }
+  .pagination-base__aILV ul.pagination li.prev-btn span,
+  .pagination-base__aILV ul.pagination li.next-btn span {
+    background: #2b2b2b !important;
+  }
+  .pagination-base__aILV ul.pagination li.prev-btn span::after,
+  .pagination-base__aILV ul.pagination li.next-btn span::after {
+    color: #b3b3b3 !important;
+  }
+  .pagination-base__aILV ul.pagination li.page-btn:hover > a {
+    border: 1px solid #218443 !important;
+    background: #218443 !important;
+  }
+  .pagination-base__aILV ul.pagination li.page-btn.active > a {
+    color: #141414 !important;
+    border: 1px solid #2db55d !important;
+    background: #2db55d !important;
+  }
+  .pagination-base__aILV ul.pagination li.page-btn.active > a:hover {
+    background: #218443 !important;
+  }
+  .pagination-base__aILV ul.pagination li.page-btn > a {
+    color: #b3b3b3 !important;
+    border: 1px solid #3d3d3d !important;
+    background: #1c1c1c !important;
+  }
+}
+
+@-moz-document url("https://leetcode-cn.com/") {
+  html,
+  body {
+    color: #b3b3b3 !important;
+    background: #1c1c1c !important;
+  }
+  h1 {
+    color: #dbdbdb !important;
+  }
+  .callout {
+    border: 1px solid #2b2b2b;
+  }
+  .callout.callout-info {
+    border-left-width: 5px !important;
+    border-left-color: #4191ff !important;
+  }
+  .callout.callout-info h4 {
+    color: #4191ff !important;
+  }
+  .ant-tooltip.ant-tooltip-placement-top .ant-tooltip-arrow,
+  .ant-tooltip.ant-tooltip-placement-topLeft .ant-tooltip-arrow,
+  .ant-tooltip.ant-tooltip-placement-topRight .ant-tooltip-arrow {
+    border-top-color: #2b2b2b !important;
+  }
+  .ant-tooltip .ant-tooltip-inner {
+    color: #b3b3b3 !important;
+    background: #2b2b2b !important;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3) !important;
+  }
+  .ant-popover.ant-popover-placement-top .ant-popover-arrow,
+  .ant-popover.ant-popover-placement-topLeft .ant-popover-arrow,
+  .ant-popover.ant-popover-placement-topRight .ant-popover-arrow {
+    border-top-color: #2b2b2b !important;
+  }
+  .ant-popover .ant-popover-inner {
+    color: #b3b3b3 !important;
+    background: #2b2b2b !important;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3) !important;
+  }
   .content-wrapper::after {
     content: "";
     display: block;
     padding: 20px;
+    background: #1c1c1c;
+  }
+  #noj-navbar > div {
+    color: #dbdbdb !important;
+    background: #2b2b2b !important;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.05) !important;
+  }
+  #noj-navbar nav li {
+    color: #dbdbdb !important;
+  }
+  #noj-navbar .css-1n67oxn-LightImg {
+    display: none !important;
+  }
+  #noj-navbar .css-56tabg-DarkImg {
+    display: block !important;
+  }
+  #noj-navbar a.css-tgtq8y-BaseButtonComponent-AppButton {
+    color: #5ab726 !important;
+    box-shadow: inset 0 0 0 1px #5ab726 !important;
+  }
+  #noj-navbar a.css-tgtq8y-BaseButtonComponent-AppButton:hover {
+    color: #57c47d !important;
+    background: #06190d !important;
+    box-shadow: inset 0 0 0 1px #57c47d !important;
+  }
+  #lc-footer {
+    padding: 15px 0 !important;
+    color: #fff !important;
+    background: #262626 !important;
+    border-top: 1px solid #5c5c5c !important;
+  }
+  #lc-footer hr {
+    display: none !important;
+  }
+  #lc-footer .row:first-of-type {
+    margin-bottom: 10px !important;
+    height: 38px !important;
+  }
+  #lc-footer .row.chinese-license a {
+    color: #fff !important;
+  }
+  #lc-footer .copyright span {
+    color: #fff !important;
+  }
+  #lc-footer .links a {
+    color: #fff !important;
+  }
+  ::-moz-selection {
+    color: #fff !important;
+    background: #37474f !important;
+  }
+  ::selection {
+    color: #fff !important;
+    background: #37474f !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer {
+    background: #2b2b2b !important;
+    box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.54) !important;
+    border: 1px solid #3d3d3d !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
+    color: #ffa119 !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
+    color: #ffa119 !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
+    fill: #ffa119 !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a {
+    color: #b3b3b3 !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a:hover {
+    background: #3d3d3d !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a svg {
+    fill: #b3b3b3 !important;
   }
   .storyboard {
     border-right: 1px solid #3d3d3d !important;
@@ -221,6 +454,12 @@
     color: #b3b3b3 !important;
     background: #2b2b2b !important;
     box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3) !important;
+  }
+  .content-wrapper::after {
+    content: "";
+    display: block;
+    padding: 20px;
+    background: #1c1c1c;
   }
   #noj-navbar > div {
     color: #dbdbdb !important;
@@ -656,6 +895,12 @@
     color: #b3b3b3 !important;
     background: #2b2b2b !important;
     box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3) !important;
+  }
+  .content-wrapper::after {
+    content: "";
+    display: block;
+    padding: 20px;
+    background: #1c1c1c;
   }
   #noj-navbar > div {
     color: #dbdbdb !important;
