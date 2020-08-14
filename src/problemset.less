@@ -118,9 +118,33 @@
         .dropdown-menu {
           box-shadow: @dropdown-shadow !important;
           border: @dropdown-border !important;
+          background: @dropdown-background-color !important;
 
           .filter-list {
             background: @dropdown-background-color !important;
+
+            input.filterSearch {
+              .ipt-default();
+            }
+
+            .filter-dropdown-menu-tabs {
+              .filter-switch-tab {
+                border-bottom: 1px solid @border-color !important;
+
+                button {
+                  color: @text-light-color !important;
+                  border: 1px solid @border-color !important;
+                  background: @border-color !important;
+
+                  &.active {
+                    color: @text-color !important;
+                    border: 1px solid @border-color !important;
+                    border-bottom-color: @dropdown-background-color !important;
+                    background: @dropdown-background-color !important;
+                  }
+                }
+              }
+            }
           }
 
           .filter-dropdown-menu-items {
@@ -279,6 +303,26 @@
 
     hr.line {
       border-color: @grey7-color !important;
+    }
+  }
+
+  // 热门推荐（小屏幕）
+  #list-card-mod {
+    .list-group-item {
+      border: 1px solid @border-color !important;
+      background: @card-background-color !important;
+
+      &.active {
+        background: @blue-color !important;
+
+        a {
+          color: @title-color !important;
+        }
+      }
+
+      a {
+        color: @text-color !important;
+      }
     }
   }
 

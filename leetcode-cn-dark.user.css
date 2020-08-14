@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         LeetcodeCN Dark
 @namespace    github.com/blackcater/LeetCodeCN-Dark
-@version      1.0.0
+@version      1.0.1
 @license      Mulan PSL
 @updateURL    https://raw.githubusercontent.com/blackcater/LeetCodeCN-Dark/master/leetcode-cn-dark.user.css
 @author       Elon Tang <blackcater2015@gmail.com>
@@ -1716,8 +1716,38 @@
   #question-app .question-list-base .pull-right .dropdown-menu {
     box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.54) !important;
     border: 1px solid #3d3d3d !important;
+    background: #2b2b2b !important;
   }
   #question-app .question-list-base .pull-right .dropdown-menu .filter-list {
+    background: #2b2b2b !important;
+  }
+  #question-app .question-list-base .pull-right .dropdown-menu .filter-list input.filterSearch {
+    color: #dbdbdb !important;
+    border: 1px solid #3d3d3d !important;
+    background-color: #1c1c1c !important;
+    box-shadow: none !important;
+  }
+  #question-app .question-list-base .pull-right .dropdown-menu .filter-list input.filterSearch::-moz-placeholder {
+    color: #5c5c5c !important;
+  }
+  #question-app .question-list-base .pull-right .dropdown-menu .filter-list input.filterSearch::placeholder {
+    color: #5c5c5c !important;
+  }
+  #question-app .question-list-base .pull-right .dropdown-menu .filter-list input.filterSearch:focus {
+    border: 1px solid #2db55d !important;
+  }
+  #question-app .question-list-base .pull-right .dropdown-menu .filter-list .filter-dropdown-menu-tabs .filter-switch-tab {
+    border-bottom: 1px solid #3d3d3d !important;
+  }
+  #question-app .question-list-base .pull-right .dropdown-menu .filter-list .filter-dropdown-menu-tabs .filter-switch-tab button {
+    color: #dbdbdb !important;
+    border: 1px solid #3d3d3d !important;
+    background: #3d3d3d !important;
+  }
+  #question-app .question-list-base .pull-right .dropdown-menu .filter-list .filter-dropdown-menu-tabs .filter-switch-tab button.active {
+    color: #b3b3b3 !important;
+    border: 1px solid #3d3d3d !important;
+    border-bottom-color: #2b2b2b !important;
     background: #2b2b2b !important;
   }
   #question-app .question-list-base .pull-right .dropdown-menu .filter-dropdown-menu-items {
@@ -1898,6 +1928,19 @@
   }
   #list-card-app hr.line {
     border-color: #b3b3b3 !important;
+  }
+  #list-card-mod .list-group-item {
+    border: 1px solid #3d3d3d !important;
+    background: #2b2b2b !important;
+  }
+  #list-card-mod .list-group-item.active {
+    background: #4191ff !important;
+  }
+  #list-card-mod .list-group-item.active a {
+    color: #dbdbdb !important;
+  }
+  #list-card-mod .list-group-item a {
+    color: #b3b3b3 !important;
   }
   #topic-module .tags-title {
     color: #dbdbdb !important;
