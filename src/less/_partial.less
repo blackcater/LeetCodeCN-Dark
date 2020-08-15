@@ -126,3 +126,43 @@
     }
   }
 }
+
+.rc-dialog-partial() {
+  .rc-dialog {
+    .rc-dialog-content {
+      color: @text-color !important;
+      background: @card-background-color !important;
+      box-shadow: @card-shadow !important;
+
+      .modal-header {
+        border-bottom: 1px solid @border-color !important;
+
+        .modal-title {
+          color: @title-color !important;
+        }
+
+        button.close {
+          color: @title-color !important;
+        }
+      }
+
+      .modal-body {
+        input.form-control {
+          .ipt-default();
+        }
+
+        button.btn-danger {
+          .btn-red();
+        }
+      }
+
+      .modal-footer {
+        border-top: 1px solid @border-color !important;
+
+        button.btn-default {
+          .btn-default();
+        }
+      }
+    }
+  }
+}

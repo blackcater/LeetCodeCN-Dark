@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         LeetcodeCN Dark
 @namespace    github.com/blackcater/LeetCodeCN-Dark
-@version      1.0.1
+@version      1.0.2
 @license      Mulan PSL
 @updateURL    https://raw.githubusercontent.com/blackcater/LeetCodeCN-Dark/master/leetcode-cn-dark.user.css
 @author       Elon Tang <blackcater2015@gmail.com>
@@ -2163,9 +2163,85 @@
     border: none !important;
     background: #2b2b2b !important;
   }
+  .panel .panel-heading input {
+    color: #dbdbdb !important;
+    border: 1px solid #3d3d3d !important;
+    background-color: #1c1c1c !important;
+    box-shadow: none !important;
+  }
+  .panel .panel-heading input::-moz-placeholder {
+    color: #5c5c5c !important;
+  }
+  .panel .panel-heading input::placeholder {
+    color: #5c5c5c !important;
+  }
+  .panel .panel-heading input:focus {
+    border: 1px solid #2db55d !important;
+  }
+  .panel .panel-heading button {
+    color: #b3b3b3 !important;
+    border: 1px solid #3d3d3d !important;
+    background: transparent !important;
+  }
+  .panel .panel-heading button:hover {
+    color: #57c47d !important;
+    border: 1px solid #57c47d !important;
+    background: #06190d !important;
+  }
   .panel .panel-body .list-group-item {
     border: 1px solid #2b2b2b !important;
     background: #1c1c1c !important;
+  }
+  .rc-dialog .rc-dialog-content {
+    color: #b3b3b3 !important;
+    background: #2b2b2b !important;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3) !important;
+  }
+  .rc-dialog .rc-dialog-content .modal-header {
+    border-bottom: 1px solid #3d3d3d !important;
+  }
+  .rc-dialog .rc-dialog-content .modal-header .modal-title {
+    color: #dbdbdb !important;
+  }
+  .rc-dialog .rc-dialog-content .modal-header button.close {
+    color: #dbdbdb !important;
+  }
+  .rc-dialog .rc-dialog-content .modal-body input.form-control {
+    color: #dbdbdb !important;
+    border: 1px solid #3d3d3d !important;
+    background-color: #1c1c1c !important;
+    box-shadow: none !important;
+  }
+  .rc-dialog .rc-dialog-content .modal-body input.form-control::-moz-placeholder {
+    color: #5c5c5c !important;
+  }
+  .rc-dialog .rc-dialog-content .modal-body input.form-control::placeholder {
+    color: #5c5c5c !important;
+  }
+  .rc-dialog .rc-dialog-content .modal-body input.form-control:focus {
+    border: 1px solid #2db55d !important;
+  }
+  .rc-dialog .rc-dialog-content .modal-body button.btn-danger {
+    color: #ffffff !important;
+    border: none !important;
+    background: #ad322f !important;
+  }
+  .rc-dialog .rc-dialog-content .modal-body button.btn-danger:hover {
+    color: #dbdbdb !important;
+    background: #ad322f !important;
+  }
+  .rc-dialog .rc-dialog-content .modal-footer {
+    border-top: 1px solid #3d3d3d !important;
+  }
+  .rc-dialog .rc-dialog-content .modal-footer button.btn-default {
+    color: #b3b3b3 !important;
+    border: 1px solid #3d3d3d !important;
+    background: transparent !important;
+  }
+  .rc-dialog .rc-dialog-content .modal-footer button.btn-default:hover {
+    color: #57c47d !important;
+    border: 1px solid #57c47d !important;
+    background: #06190d !important;
   }
 }
 
