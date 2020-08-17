@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         LeetcodeCN Dark
 @namespace    github.com/blackcater/LeetCodeCN-Dark
-@version      1.0.2
+@version      1.0.3
 @license      Mulan PSL
 @updateURL    https://raw.githubusercontent.com/blackcater/LeetCodeCN-Dark/master/leetcode-cn-dark.user.css
 @author       Elon Tang <blackcater2015@gmail.com>
@@ -17,6 +17,7 @@
   }
   .callout {
     border: 1px solid #2b2b2b;
+    background: #1c1c1c !important;
   }
   .callout.callout-info {
     border-left-width: 5px !important;
@@ -215,6 +216,73 @@
     border: 1px solid #218443 !important;
     background: #218443 !important;
   }
+  #base_content .contest-detail-base .page-heading .title .contest-name {
+    color: #dbdbdb !important;
+  }
+  #base_content .contest-detail-base .page-heading .title .contest-time {
+    color: #5c5c5c !important;
+  }
+  #base_content .contest-detail-base .callout.callout-info a {
+    color: #4191ff !important;
+  }
+  #base_content .contest-detail-base .container.contest-information img {
+    filter: brightness(0.8);
+  }
+  #base_content .contest-detail-base h3,
+  #base_content .contest-detail-base h4 {
+    color: #dbdbdb !important;
+  }
+  #base_content .contest-detail-base ul.list-group {
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3) !important;
+  }
+  #base_content .contest-detail-base ul.list-group li.list-group-item {
+    color: #dbdbdb !important;
+    border: 1px solid #2b2b2b !important;
+    background: #1c1c1c !important;
+  }
+  #base_content .contest-detail-base ul.list-group li.list-group-item:hover {
+    background: #2b2b2b !important;
+  }
+  #base_content .contest-detail-base ul.list-group li.list-group-item a {
+    color: #b3b3b3 !important;
+  }
+  #base_content .contest-detail-base hr {
+    border-top: 1px solid #3d3d3d !important;
+  }
+  #base_content .contest-detail-base a.btn.btn-default,
+  #base_content .contest-detail-base button.btn.btn-default {
+    color: #b3b3b3 !important;
+    border: 1px solid #3d3d3d !important;
+    background: transparent !important;
+  }
+  #base_content .contest-detail-base a.btn.btn-default:hover,
+  #base_content .contest-detail-base button.btn.btn-default:hover {
+    color: #57c47d !important;
+    border: 1px solid #57c47d !important;
+    background: #06190d !important;
+  }
+  #base_content .contest-detail-base a.btn.btn-success,
+  #base_content .contest-detail-base button.btn.btn-success {
+    color: #ffffff !important;
+    border: none !important;
+    background: #2db55d !important;
+  }
+  #base_content .contest-detail-base a.btn.btn-success:hover,
+  #base_content .contest-detail-base button.btn.btn-success:hover {
+    color: #dbdbdb !important;
+    background: #218443 !important;
+  }
+  #base_content .contest-detail-base a.btn.btn-primary,
+  #base_content .contest-detail-base button.btn.btn-primary {
+    color: #ffffff !important;
+    border: none !important;
+    background: #2e68b9 !important;
+  }
+  #base_content .contest-detail-base a.btn.btn-primary:hover,
+  #base_content .contest-detail-base button.btn.btn-primary:hover {
+    color: #dbdbdb !important;
+    background: #2e68b9 !important;
+  }
   .pagination-base__aILV ul.pagination li.prev-btn span,
   .pagination-base__aILV ul.pagination li.next-btn span {
     background: #2b2b2b !important;
@@ -253,6 +321,7 @@
   }
   .callout {
     border: 1px solid #2b2b2b;
+    background: #1c1c1c !important;
   }
   .callout.callout-info {
     border-left-width: 5px !important;
@@ -515,6 +584,7 @@
   }
   .callout {
     border: 1px solid #2b2b2b;
+    background: #1c1c1c !important;
   }
   .callout.callout-info {
     border-left-width: 5px !important;
@@ -695,6 +765,7 @@
   }
   .callout {
     border: 1px solid #2b2b2b;
+    background: #1c1c1c !important;
   }
   .callout.callout-info {
     border-left-width: 5px !important;
@@ -1034,6 +1105,7 @@
   }
   .callout {
     border: 1px solid #2b2b2b;
+    background: #1c1c1c !important;
   }
   .callout.callout-info {
     border-left-width: 5px !important;
@@ -1160,6 +1232,7 @@
   }
   .callout {
     border: 1px solid #2b2b2b;
+    background: #1c1c1c !important;
   }
   .callout.callout-info {
     border-left-width: 5px !important;
@@ -1362,6 +1435,7 @@
   }
   .callout {
     border: 1px solid #2b2b2b;
+    background: #1c1c1c !important;
   }
   .callout.callout-info {
     border-left-width: 5px !important;
@@ -1525,6 +1599,7 @@
   }
   .callout {
     border: 1px solid #2b2b2b;
+    background: #1c1c1c !important;
   }
   .callout.callout-info {
     border-left-width: 5px !important;
@@ -2012,6 +2087,7 @@
   }
   .callout {
     border: 1px solid #2b2b2b;
+    background: #1c1c1c !important;
   }
   .callout.callout-info {
     border-left-width: 5px !important;
@@ -2256,6 +2332,7 @@
   }
   .callout {
     border: 1px solid #2b2b2b;
+    background: #1c1c1c !important;
   }
   .callout.callout-info {
     border-left-width: 5px !important;

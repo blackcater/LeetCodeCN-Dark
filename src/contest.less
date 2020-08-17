@@ -149,6 +149,71 @@
     }
   }
 
+  // 详情页
+  #base_content .contest-detail-base {
+    .page-heading .title {
+      .contest-name {
+        color: @title-color !important;
+      }
+
+      .contest-time {
+        color: @text-secondary-color !important;
+      }
+    }
+
+    .callout.callout-info a {
+      color: @blue-color !important;
+    }
+
+    .container.contest-information {
+      img {
+        filter: brightness(0.8);
+      }
+    }
+
+    h3,
+    h4 {
+      color: @title-color !important;
+    }
+
+    ul.list-group {
+      box-shadow: @card-shadow !important;
+
+      li.list-group-item {
+        color: @text-light-color !important;
+        border: 1px solid @card-background-color !important;
+        background: @background-color !important;
+
+        &:hover {
+          background: @card-background-color !important;
+        }
+
+        a {
+          color: @text-color !important;
+        }
+      }
+    }
+
+    hr {
+      border-top: 1px solid @border-color !important;
+    }
+
+    a.btn.btn-default,
+    button.btn.btn-default {
+      .btn-default();
+    }
+
+    a.btn.btn-success,
+    button.btn.btn-success {
+      .btn-primary();
+    }
+
+    a.btn.btn-primary,
+    button.btn.btn-primary {
+      .btn-blue();
+    }
+  }
+
   // 分页器
   .pagination-base__aILV {
     ul.pagination {
