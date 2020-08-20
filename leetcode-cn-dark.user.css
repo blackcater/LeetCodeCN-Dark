@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         LeetcodeCN Dark
 @namespace    github.com/blackcater/LeetCodeCN-Dark
-@version      1.0.3
+@version      1.1.0
 @license      Mulan PSL
 @updateURL    https://raw.githubusercontent.com/blackcater/LeetCodeCN-Dark/master/leetcode-cn-dark.user.css
 @author       Elon Tang <blackcater2015@gmail.com>
@@ -574,184 +574,6 @@
 }
 
 @-moz-document url("https://leetcode-cn.com/") {
-  html,
-  body {
-    color: #b3b3b3 !important;
-    background: #1c1c1c !important;
-  }
-  h1 {
-    color: #dbdbdb !important;
-  }
-  .callout {
-    border: 1px solid #2b2b2b;
-    background: #1c1c1c !important;
-  }
-  .callout.callout-info {
-    border-left-width: 5px !important;
-    border-left-color: #4191ff !important;
-  }
-  .callout.callout-info h4 {
-    color: #4191ff !important;
-  }
-  .ant-tooltip.ant-tooltip-placement-top .ant-tooltip-arrow,
-  .ant-tooltip.ant-tooltip-placement-topLeft .ant-tooltip-arrow,
-  .ant-tooltip.ant-tooltip-placement-topRight .ant-tooltip-arrow {
-    border-top-color: #2b2b2b !important;
-  }
-  .ant-tooltip .ant-tooltip-inner {
-    color: #b3b3b3 !important;
-    background: #2b2b2b !important;
-    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3) !important;
-  }
-  .ant-popover.ant-popover-placement-top .ant-popover-arrow,
-  .ant-popover.ant-popover-placement-topLeft .ant-popover-arrow,
-  .ant-popover.ant-popover-placement-topRight .ant-popover-arrow {
-    border-top-color: #2b2b2b !important;
-  }
-  .ant-popover .ant-popover-inner {
-    color: #b3b3b3 !important;
-    background: #2b2b2b !important;
-    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3) !important;
-  }
-  .content-wrapper::after {
-    content: "";
-    display: block;
-    padding: 20px;
-    background: #1c1c1c;
-  }
-  #noj-navbar > div {
-    color: #dbdbdb !important;
-    background: #2b2b2b !important;
-    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.05) !important;
-  }
-  #noj-navbar nav li {
-    color: #dbdbdb !important;
-  }
-  #noj-navbar .css-1n67oxn-LightImg {
-    display: none !important;
-  }
-  #noj-navbar .css-56tabg-DarkImg {
-    display: block !important;
-  }
-  #noj-navbar a.css-tgtq8y-BaseButtonComponent-AppButton {
-    color: #5ab726 !important;
-    box-shadow: inset 0 0 0 1px #5ab726 !important;
-  }
-  #noj-navbar a.css-tgtq8y-BaseButtonComponent-AppButton:hover {
-    color: #57c47d !important;
-    background: #06190d !important;
-    box-shadow: inset 0 0 0 1px #57c47d !important;
-  }
-  #lc-footer {
-    padding: 15px 0 !important;
-    color: #fff !important;
-    background: #262626 !important;
-    border-top: 1px solid #5c5c5c !important;
-  }
-  #lc-footer hr {
-    display: none !important;
-  }
-  #lc-footer .row:first-of-type {
-    margin-bottom: 10px !important;
-    height: 38px !important;
-  }
-  #lc-footer .row.chinese-license a {
-    color: #fff !important;
-  }
-  #lc-footer .copyright span {
-    color: #fff !important;
-  }
-  #lc-footer .links a {
-    color: #fff !important;
-  }
-  ::-moz-selection {
-    color: #fff !important;
-    background: #37474f !important;
-  }
-  ::selection {
-    color: #fff !important;
-    background: #37474f !important;
-  }
-  .ant-dropdown.css-mmpgiv-DropdownComponentClassName {
-    filter: invert(0.88) hue-rotate(180deg);
-  }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer {
-    background: #2b2b2b !important;
-    box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.54) !important;
-    border: 1px solid #3d3d3d !important;
-  }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
-    color: #ffa119 !important;
-  }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
-    color: #ffa119 !important;
-  }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
-    fill: #ffa119 !important;
-  }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a {
-    color: #b3b3b3 !important;
-  }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a:hover {
-    background: #3d3d3d !important;
-  }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a svg {
-    fill: #b3b3b3 !important;
-  }
-  .storyboard {
-    border-right: 1px solid #3d3d3d !important;
-  }
-  .storyboard hr {
-    border-top: 1px solid #3d3d3d !important;
-  }
-  .storyboard .media .media-left.media-top {
-    filter: brightness(0.8);
-  }
-  .storyboard .media .media-body .since {
-    color: #5c5c5c !important;
-  }
-  .storyboard .media .media-body .media-heading {
-    color: #dbdbdb !important;
-  }
-  .storyboard .media .media-body .media-heading a {
-    color: #4191ff !important;
-  }
-  .side-bar .wrapper__2b4L img {
-    filter: brightness(0.8);
-  }
-  .side-bar .side-block .side-block-title {
-    color: #dbdbdb !important;
-  }
-  .side-bar .side-block .side-block-info {
-    color: #b3b3b3 !important;
-  }
-  .side-bar .side-block .side-block-image img {
-    filter: brightness(0.8);
-  }
-  .side-bar .side-block a.side-block-btn {
-    color: #b3b3b3 !important;
-    border: 1px solid #3d3d3d !important;
-    background: transparent !important;
-  }
-  .side-bar .side-block a.side-block-btn:hover {
-    color: #57c47d !important;
-    border: 1px solid #57c47d !important;
-    background: #06190d !important;
-  }
-  .side-bar .problem-category a.link {
-    color: #dbdbdb !important;
-  }
-  .side-bar .problem-category a.link:hover {
-    color: #b3b3b3 !important;
-    background: #2b2b2b !important;
-  }
-  .side-bar .problem-category a.link i.fa {
-    color: #5ab726 !important;
-  }
-  .sign-in-modal-container + .modal-container > div,
-  .popper-container > .css-1jjfby9-Container-layer1-level3-DropdownPopperContainer {
-    filter: invert(1) hue-rotate(180deg);
-  }
 }
 
 @-moz-document url-prefix("https://leetcode-cn.com/list/") {
@@ -2482,5 +2304,189 @@
   #base_content #redeem .redeem-panel button:hover {
     color: #dbdbdb !important;
     background: #937849 !important;
+  }
+}
+
+@-moz-document url("https://leetcode-cn.com/submissions/") {
+  html,
+  body {
+    color: #b3b3b3 !important;
+    background: #1c1c1c !important;
+  }
+  h1 {
+    color: #dbdbdb !important;
+  }
+  .callout {
+    border: 1px solid #2b2b2b;
+    background: #1c1c1c !important;
+  }
+  .callout.callout-info {
+    border-left-width: 5px !important;
+    border-left-color: #4191ff !important;
+  }
+  .callout.callout-info h4 {
+    color: #4191ff !important;
+  }
+  .ant-tooltip.ant-tooltip-placement-top .ant-tooltip-arrow,
+  .ant-tooltip.ant-tooltip-placement-topLeft .ant-tooltip-arrow,
+  .ant-tooltip.ant-tooltip-placement-topRight .ant-tooltip-arrow {
+    border-top-color: #2b2b2b !important;
+  }
+  .ant-tooltip .ant-tooltip-inner {
+    color: #b3b3b3 !important;
+    background: #2b2b2b !important;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3) !important;
+  }
+  .ant-popover.ant-popover-placement-top .ant-popover-arrow,
+  .ant-popover.ant-popover-placement-topLeft .ant-popover-arrow,
+  .ant-popover.ant-popover-placement-topRight .ant-popover-arrow {
+    border-top-color: #2b2b2b !important;
+  }
+  .ant-popover .ant-popover-inner {
+    color: #b3b3b3 !important;
+    background: #2b2b2b !important;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3) !important;
+  }
+  .content-wrapper::after {
+    content: "";
+    display: block;
+    padding: 20px;
+    background: #1c1c1c;
+  }
+  #noj-navbar > div {
+    color: #dbdbdb !important;
+    background: #2b2b2b !important;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.05) !important;
+  }
+  #noj-navbar nav li {
+    color: #dbdbdb !important;
+  }
+  #noj-navbar .css-1n67oxn-LightImg {
+    display: none !important;
+  }
+  #noj-navbar .css-56tabg-DarkImg {
+    display: block !important;
+  }
+  #noj-navbar a.css-tgtq8y-BaseButtonComponent-AppButton {
+    color: #5ab726 !important;
+    box-shadow: inset 0 0 0 1px #5ab726 !important;
+  }
+  #noj-navbar a.css-tgtq8y-BaseButtonComponent-AppButton:hover {
+    color: #57c47d !important;
+    background: #06190d !important;
+    box-shadow: inset 0 0 0 1px #57c47d !important;
+  }
+  #lc-footer {
+    padding: 15px 0 !important;
+    color: #fff !important;
+    background: #262626 !important;
+    border-top: 1px solid #5c5c5c !important;
+  }
+  #lc-footer hr {
+    display: none !important;
+  }
+  #lc-footer .row:first-of-type {
+    margin-bottom: 10px !important;
+    height: 38px !important;
+  }
+  #lc-footer .row.chinese-license a {
+    color: #fff !important;
+  }
+  #lc-footer .copyright span {
+    color: #fff !important;
+  }
+  #lc-footer .links a {
+    color: #fff !important;
+  }
+  ::-moz-selection {
+    color: #fff !important;
+    background: #37474f !important;
+  }
+  ::selection {
+    color: #fff !important;
+    background: #37474f !important;
+  }
+  .ant-dropdown.css-mmpgiv-DropdownComponentClassName {
+    filter: invert(0.88) hue-rotate(180deg);
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer {
+    background: #2b2b2b !important;
+    box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.54) !important;
+    border: 1px solid #3d3d3d !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
+    color: #ffa119 !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
+    color: #ffa119 !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
+    fill: #ffa119 !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a {
+    color: #b3b3b3 !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a:hover {
+    background: #3d3d3d !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a svg {
+    fill: #b3b3b3 !important;
+  }
+  #base_content h3,
+  #base_content h4 {
+    color: #dbdbdb !important;
+  }
+  #submission-list-app table {
+    border: 1px solid #3d3d3d !important;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3) !important;
+  }
+  #submission-list-app table thead {
+    color: #dbdbdb !important;
+    background: #2b2b2b !important;
+  }
+  #submission-list-app table thead th {
+    border-color: #3d3d3d !important;
+  }
+  #submission-list-app table tbody tr:hover {
+    background: #3d3d3d !important;
+  }
+  #submission-list-app table tbody tr:nth-child(2n + 1) {
+    background: #2b2b2b !important;
+  }
+  #submission-list-app table tbody tr:nth-child(2n + 1):hover {
+    background: #3d3d3d !important;
+  }
+  #submission-list-app table tbody td {
+    border-color: #3d3d3d !important;
+  }
+  #submission-list-app table tbody td a.text-success {
+    color: #5ab726 !important;
+  }
+  #submission-list-app table tbody td a.text-danger {
+    color: #ef4743 !important;
+  }
+  #submission-list-app nav li.previous,
+  #submission-list-app nav li.next {
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3) !important;
+  }
+  #submission-list-app nav li.previous span,
+  #submission-list-app nav li.next span,
+  #submission-list-app nav li.previous a,
+  #submission-list-app nav li.next a {
+    color: #4191ff !important;
+    background: #2b2b2b !important;
+    border: none !important;
+  }
+  #submission-list-app nav li.previous:hover span,
+  #submission-list-app nav li.next:hover span,
+  #submission-list-app nav li.previous:hover a,
+  #submission-list-app nav li.next:hover a {
+    background: #3d3d3d !important;
+  }
+  #submission-list-app nav li.previous.disabled span,
+  #submission-list-app nav li.next.disabled span,
+  #submission-list-app nav li.previous.disabled a,
+  #submission-list-app nav li.next.disabled a {
+    color: #5c5c5c !important;
   }
 }

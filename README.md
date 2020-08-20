@@ -32,13 +32,13 @@ LeetCode 估计最近是在样式迁移，很多页面还不支持黑色主题�
 
 ## 样式支持
 
-<details><summary><a href="https://leetcode-cn.com/">未登录样式</a></summary>
+<details><summary><a href="https://leetcode-cn.com/">未登录样式（❌官方已支持）</a></summary>
 
 ![未登录样式](./screenshot/screenshot-login.png)
 
 </details>
 
-<details><summary><a href="https://leetcode-cn.com/">主页</a></summary>
+<details><summary><a href="https://leetcode-cn.com/">主页（❌官方已支持）</a></summary>
 
 ![主页](./screenshot/screenshot-home.png)
 

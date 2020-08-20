@@ -1,6 +1,6 @@
 {
   "name": "LeetCodeCN-Dark",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "中国区 LeetCode 支持黑色主题",
   "main": "index.js",
   "repository": "https://github.com/blackcater/LeetCodeCN-Dark.git",

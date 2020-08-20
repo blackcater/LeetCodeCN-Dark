@@ -1,0 +1,82 @@
+@-moz-document url("https://leetcode-cn.com/submissions/") {
+  @import "less/common";
+
+  #base_content {
+    h3,
+    h4 {
+      color: @title-color !important;
+    }
+  }
+
+  #submission-list-app {
+    table {
+      border: 1px solid @border-color !important;
+      box-shadow: @card-shadow !important;
+
+      thead {
+        color: @title-color !important;
+        background: @card-background-color !important;
+
+        th {
+          border-color: @border-color !important;
+        }
+      }
+
+      tbody {
+        tr {
+          &:hover {
+            background: @table-hover-color !important;
+          }
+
+          &:nth-child(2n + 1) {
+            &:hover {
+              background: @table-hover-color !important;
+            }
+
+            background: @table-odd-color !important;
+          }
+        }
+
+        td {
+          border-color: @border-color !important;
+
+          a.text-success {
+            color: @green-color !important;
+          }
+
+          a.text-danger {
+            color: @red-color !important;
+          }
+        }
+      }
+    }
+
+    nav {
+      li.previous,
+      li.next {
+        box-shadow: @card-shadow !important;
+
+        span,
+        a {
+          color: @blue-color !important;
+          background: @card-background-color !important;
+          border: none !important;
+        }
+
+        &:hover {
+          span,
+          a {
+            background: @grey4-color !important;
+          }
+        }
+
+        &.disabled {
+          span,
+          a {
+            color: @text-secondary-color !important;
+          }
+        }
+      }
+    }
+  }
+}
