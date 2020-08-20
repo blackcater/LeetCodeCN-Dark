@@ -36,11 +36,15 @@ LeetCode 估计最近是在样式迁移，很多页面还不支持黑色主题�
 
 ![未登录样式](./screenshot/screenshot-login.png)
 
+> 已于 v1.1.0 之后移除支持
+
 </details>
 
 <details><summary><a href="https://leetcode-cn.com/">主页（❌官方已支持）</a></summary>
 
 ![主页](./screenshot/screenshot-home.png)
+
+> 已于 v1.1.0 之后移除支持
 
 </details>
 
@@ -95,6 +99,12 @@ LeetCode 估计最近是在样式迁移，很多页面还不支持黑色主题�
 <details><summary><a href="https://leetcode-cn.com/contribute/">社区贡献页面</a></summary>
 
 ![社区贡献页面](./screenshot/screenshot-contribute.png)
+
+</details>
+
+<details><summary><a href="https://leetcode-cn.com/submissions/">提交记录页面</a></summary>
+
+> v1.1.0 以及之后支持
 
 </details>
 
