@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         LeetcodeCN Dark
 @namespace    github.com/blackcater/LeetCodeCN-Dark
-@version      1.1.0
+@version      1.2.0
 @license      Mulan PSL
 @updateURL    https://raw.githubusercontent.com/blackcater/LeetCodeCN-Dark/master/leetcode-cn-dark.user.css
 @author       Elon Tang <blackcater2015@gmail.com>
@@ -1708,104 +1708,90 @@
     border: 1px solid #218443 !important;
     background: #218443 !important;
   }
-  #user-progress-app .wrapper__2b4L img {
+  #user-progress-app .css-z26dkq-Container img {
     filter: brightness(0.8);
   }
-  #user-progress-app .css-96hr2l-CalendarWrapper > div:first-child {
+  #user-progress-app .css-1rc2chb-CalendarWrapper {
+    background: #2b2b2b !important;
+  }
+  #user-progress-app .css-1rc2chb-CalendarWrapper .css-4hxiu2-MedalContainer {
+    background: none;
+  }
+  #user-progress-app .css-1rc2chb-CalendarWrapper .css-4hxiu2-MedalContainer img {
+    opacity: 0.5;
+  }
+  #user-progress-app .css-1rc2chb-CalendarWrapper .css-4hxiu2-MedalContainer img:hover {
+    opacity: 1;
+  }
+  #user-progress-app .css-1rc2chb-CalendarWrapper .css-yk1l9u-CalendarTitle {
     color: #dbdbdb !important;
   }
-  #user-progress-app .css-96hr2l-CalendarWrapper > div:nth-child(2) > div > div:hover {
-    background: #2b2b2b !important;
-  }
-  #user-progress-app .css-96hr2l-CalendarWrapper > div:last-child {
+  #user-progress-app .css-1rc2chb-CalendarWrapper .css-yk1l9u-CalendarTitle .css-1a4qo09-Month {
     color: #b3b3b3 !important;
-    background: #2b2b2b !important;
-  }
-  #user-progress-app .css-96hr2l-CalendarWrapper > div:last-child span:nth-child(2) {
-    color: #5ab726 !important;
-  }
-  #user-progress-app .css-96hr2l-CalendarWrapper > div:last-child span:last-child {
-    color: #b3b3b3 !important;
-  }
-  #user-progress-app .progress-module .sidebar-title {
-    color: #dbdbdb !important;
-  }
-  #user-progress-app .progress-module li.session-select {
-    color: #b3b3b3 !important;
-    background: #2b2b2b !important;
-  }
-  #user-progress-app .progress-module li.session-select .session-manager-btn button.dropdown-toggle {
-    color: #b3b3b3 !important;
-    border: 1px solid #3d3d3d !important;
-    background: transparent !important;
-  }
-  #user-progress-app .progress-module li.session-select .session-manager-btn button.dropdown-toggle:hover {
-    color: #57c47d !important;
-    border: 1px solid #57c47d !important;
-    background: #06190d !important;
-  }
-  #user-progress-app .progress-module li.session-select .session-manager-btn ul.session-list {
-    background: #2b2b2b !important;
-    box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.54) !important;
-  }
-  #user-progress-app .progress-module li.session-select .session-manager-btn ul.session-list a {
-    color: #b3b3b3 !important;
-  }
-  #user-progress-app .progress-module li.session-select .session-manager-btn ul.session-list a:hover {
     background: #3d3d3d !important;
   }
-  #user-progress-app .progress-module li.session-select .session-manager-btn a.manage-btn {
+  #user-progress-app .css-1rc2chb-CalendarWrapper .css-yk1l9u-CalendarTitle svg {
+    fill: #dbdbdb !important;
+  }
+  #user-progress-app .css-1rc2chb-CalendarWrapper .css-ctx0ft-CalendarWeek .css-11lyyu4-CalendarHeader {
+    color: #dbdbdb !important;
+  }
+  #user-progress-app .css-1rc2chb-CalendarWrapper .css-ctx0ft-CalendarWeek .css-400zsq-CalendarDay {
     color: #b3b3b3 !important;
-    border: 1px solid #3d3d3d !important;
-    background: transparent !important;
   }
-  #user-progress-app .progress-module li.session-select .session-manager-btn a.manage-btn:hover {
-    color: #57c47d !important;
-    border: 1px solid #57c47d !important;
-    background: #06190d !important;
-  }
-  #user-progress-app .progress-module li.chart-elem {
-    background: #1c1c1c !important;
-    border: 1px solid #2b2b2b !important;
-  }
-  #user-progress-app .progress-module li.chart-elem .progress-status {
-    border-top: 1px dotted #3d3d3d !important;
-  }
-  #user-progress-app .progress-module li.chart-elem .progress-status .text-primary {
-    color: #4191ff !important;
-  }
-  #user-progress-app .progress-module li.chart-elem .progress-status .text-success {
-    color: #5ab726 !important;
-  }
-  #user-progress-app .progress-module li.chart-elem .progress-status .text-warning {
-    color: #ffa119 !important;
-  }
-  #user-progress-app .progress-module li.chart-elem svg.highcharts-root g.highcharts-tooltip > path:last-of-type {
-    fill: #1c1c1c !important;
-  }
-  #user-progress-app .progress-module li.chart-elem svg.highcharts-root g.highcharts-tooltip > text:last-child {
+  #user-progress-app .css-1rc2chb-CalendarWrapper .css-ctx0ft-CalendarWeek .css-tgugze-CalendarDay-MissedCalendarDay {
     color: #b3b3b3 !important;
-    fill: #b3b3b3 !important;
   }
-  #user-progress-app .progress-module li.chart-elem svg.highcharts-root g.highcharts-button.highcharts-button-hover rect {
-    fill: #2b2b2b !important;
-  }
-  #user-progress-app .progress-module li.chart-elem svg.highcharts-root g.highcharts-button.highcharts-button-hover text {
+  #user-progress-app .css-1rc2chb-CalendarWrapper .css-1m3pkg1-CardWrapper .css-192hyp1-CardContainer span {
     color: #b3b3b3 !important;
-    fill: #b3b3b3 !important;
   }
-  #user-progress-app .progress-module li.chart-elem svg.highcharts-root g.highcharts-button text {
+  #user-progress-app .css-1rc2chb-CalendarWrapper .css-1m3pkg1-CardWrapper .css-192hyp1-CardContainer span.css-uyw64a-RedeemButton {
+    color: #2db55d !important;
+  }
+  #user-progress-app .css-1rc2chb-CalendarWrapper .css-1m3pkg1-CardWrapper .css-1cmjfmm-RuleText {
     color: #b3b3b3 !important;
-    fill: #b3b3b3 !important;
   }
-  #user-progress-app .progress-module li.points-info {
+  #user-progress-app .css-obaajf-Container {
     background: #2b2b2b !important;
   }
-  #user-progress-app .progress-module li.points-info .info-value {
+  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-17nb129-Title {
+    color: #dbdbdb !important;
+  }
+  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-134uju6-ButtonContainer .css-1b0qeup-SessionButton {
+    background-color: #3d3d3d !important;
+  }
+  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-134uju6-ButtonContainer .css-1b0qeup-SessionButton .css-5lrm4v-SessionName {
     color: #b3b3b3 !important;
   }
-  #user-progress-app .progress-module li.points-info .text-center:nth-child(n + 2) {
-    border-left: 1px #3d3d3d solid;
+  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-134uju6-ButtonContainer .css-1b0qeup-SessionButton svg {
+    fill: #b3b3b3 !important;
+  }
+  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-134uju6-ButtonContainer .css-zndv66-ConfigButton {
+    background: #3d3d3d !important;
+  }
+  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-134uju6-ButtonContainer .css-zndv66-ConfigButton svg {
+    fill: #b3b3b3 !important;
+  }
+  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-2x1u4a-DropdownContainer {
+    border: 1px solid #3d3d3d;
+    box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.54);
+    background: #2b2b2b;
+  }
+  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-2x1u4a-DropdownContainer .css-latz5u-SessionOption div {
+    color: #b3b3b3 !important;
+  }
+  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-2x1u4a-DropdownContainer .css-latz5u-SessionOption svg {
+    fill: #2db55d !important;
+  }
+  #user-progress-app .css-obaajf-Container .css-eysaw4-Container .css-1yahjo4-SubmitPercentage,
+  #user-progress-app .css-obaajf-Container .css-eysaw4-Container .css-1cwh3x2-SubmitText {
+    color: #b3b3b3 !important;
+  }
+  #user-progress-app .css-obaajf-Container .css-uxkw03-Container .css-8mbaxz-AcceptedNum {
+    color: #b3b3b3 !important;
+  }
+  #user-progress-app .css-obaajf-Container .css-uxkw03-Container .css-1g4kd3y-TotalNum {
+    color: #5c5c5c !important;
   }
   #list-card-app .sidebar-title {
     color: #dbdbdb !important;

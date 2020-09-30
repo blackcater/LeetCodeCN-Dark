@@ -244,39 +244,172 @@
   // 用户进度
   #user-progress-app {
     // 广告
-    .wrapper__2b4L img {
+    .css-z26dkq-Container img {
       filter: brightness(0.8);
     }
 
-    // 日历
-    .css-96hr2l-CalendarWrapper {
-      & > div:first-child {
+    // 打卡日历
+    .css-1rc2chb-CalendarWrapper {
+      background: @card-background-color !important;
+
+      .css-4hxiu2-MedalContainer {
+        background: none;
+
+        img {
+          opacity: 0.5;
+
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
+
+      .css-yk1l9u-CalendarTitle {
         color: @title-color !important;
-      }
 
-      & > div:nth-child(2) > div > div:hover {
-        background: @card-background-color !important;
-      }
-
-      & > div:last-child {
-        color: @text-color !important;
-        background: @card-background-color !important;
-
-        span:nth-child(2) {
-          color: @green-color !important;
+        .css-1a4qo09-Month {
+          color: @text-color !important;
+          background: @grey4-color !important;
         }
 
-        span:last-child {
+        svg {
+          fill: @title-color !important;
+        }
+      }
+
+      .css-ctx0ft-CalendarWeek {
+        .css-11lyyu4-CalendarHeader {
+          color: @title-color !important;
+        }
+
+        .css-400zsq-CalendarDay {
+          color: @text-color !important;
+        }
+
+        .css-tgugze-CalendarDay-MissedCalendarDay {
+          color: @text-color !important;
+        }
+      }
+
+      .css-1m3pkg1-CardWrapper {
+        .css-192hyp1-CardContainer {
+          span {
+            color: @text-color !important;
+          }
+
+          span.css-uyw64a-RedeemButton {
+            color: @primary-color !important;
+          }
+        }
+
+        .css-1cmjfmm-RuleText {
           color: @text-color !important;
         }
       }
     }
 
-    // 进度
-    .progress-module {
-      .progress-module-partial();
+    // 进度展示
+    .css-obaajf-Container {
+      background: @card-background-color !important;
+
+      .css-jg8d0x-TitleContainer {
+        .css-17nb129-Title {
+          color: @title-color !important;
+        }
+
+        .css-134uju6-ButtonContainer {
+          .css-1b0qeup-SessionButton {
+            background-color: @grey4-color !important;
+
+            .css-5lrm4v-SessionName {
+              color: @text-color !important;
+            }
+
+            svg {
+              fill: @text-color !important;
+            }
+          }
+
+          .css-zndv66-ConfigButton {
+            background: @grey4-color !important;
+
+            svg {
+              fill: @text-color !important;
+            }
+          }
+        }
+
+        .css-2x1u4a-DropdownContainer {
+          border: @dropdown-border;
+          box-shadow: @dropdown-shadow;
+          background: @dropdown-background-color;
+
+          .css-latz5u-SessionOption {
+            div {
+              color: @text-color !important;
+            }
+
+            svg {
+              fill: @primary-color !important;
+            }
+          }
+        }
+      }
+
+      .css-eysaw4-Container {
+        .css-1yahjo4-SubmitPercentage,
+        .css-1cwh3x2-SubmitText {
+          color: @text-color !important;
+        }
+      }
+
+      .css-uxkw03-Container {
+        .css-8mbaxz-AcceptedNum {
+          color: @text-color !important;
+        }
+
+        .css-1g4kd3y-TotalNum {
+          color: @text-secondary-color !important;
+        }
+      }
     }
   }
+
+  //#user-progress-app {
+  //  // 广告
+  //  .wrapper__2b4L img {
+  //    filter: brightness(0.8);
+  //  }
+  //
+  //  // 日历
+  //  .css-96hr2l-CalendarWrapper {
+  //    & > div:first-child {
+  //      color: @title-color !important;
+  //    }
+  //
+  //    & > div:nth-child(2) > div > div:hover {
+  //      background: @card-background-color !important;
+  //    }
+  //
+  //    & > div:last-child {
+  //      color: @text-color !important;
+  //      background: @card-background-color !important;
+  //
+  //      span:nth-child(2) {
+  //        color: @green-color !important;
+  //      }
+  //
+  //      span:last-child {
+  //        color: @text-color !important;
+  //      }
+  //    }
+  //  }
+  //
+  //  // 进度
+  //  .progress-module {
+  //    .progress-module-partial();
+  //  }
+  //}
 
   // 热门推荐
   #list-card-app {
