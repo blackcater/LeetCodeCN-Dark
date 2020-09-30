@@ -84,7 +84,7 @@ LeetCode 估计最近是在样式迁移，很多页面还不支持黑色主题�
 
 </details>
 
-<details><summary><a href="https://leetcode-cn.com/session/">进度管理页面</a></summary>
+<details><summary><a href="https://leetcode-cn.com/session/">进度管理页面（❌官方已支持）</a></summary>
 
 ![进度管理页面](./screenshot/screenshot-session.png)
 

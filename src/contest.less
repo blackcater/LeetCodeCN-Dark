@@ -157,7 +157,7 @@
       }
 
       .contest-time {
-        color: @text-secondary-color !important;
+        color: @title-color !important;
       }
     }
 
@@ -168,6 +168,62 @@
     .container.contest-information {
       img {
         filter: brightness(0.8);
+      }
+    }
+
+    .panel.ranking-list {
+      color: @text-color !important;
+      background: @background-color !important;
+      border-color: @card-background-color !important;
+      box-shadow: @card-shadow !important;
+
+      .panel-heading {
+        color: @title-color !important;
+        border: none !important;
+        background: @card-background-color !important;
+      }
+
+      .panel-body {
+        table {
+          thead {
+            tr:hover {
+              background: @background-color !important;
+            }
+
+            th {
+              color: @title-color !important;
+              border-bottom: 2px solid @table-border-color !important;
+            }
+          }
+
+          tbody {
+            tr {
+              &:hover {
+                background: @table-hover-color !important;
+              }
+
+              &:nth-child(2n + 1) {
+                &:hover {
+                  background: @table-hover-color !important;
+                }
+
+                background: @table-odd-color !important;
+              }
+
+              td {
+                border-top: 2px solid @table-border-color !important;
+              }
+            }
+          }
+        }
+
+        a.ranking-more-btn {
+          &:hover {
+            background: @background-color !important;
+          }
+
+          border-top: 1px solid @border-color !important;
+        }
       }
     }
 
@@ -220,6 +276,7 @@
       li.prev-btn,
       li.next-btn {
         span {
+          border: 1px solid @border-color !important;
           background: @card-background-color !important;
 
           &::after {
@@ -250,6 +307,193 @@
           background: @background-color !important;
         }
       }
+    }
+  }
+
+  // 问题详情页
+  .question-title {
+    h3 {
+      color: @title-color !important;
+    }
+
+    .lang-switcher {
+      color: @text-color !important;
+    }
+
+    .btn-group {
+      .btn.btn-default {
+        .btn-default();
+      }
+
+      .btn.btn-success {
+        .btn-primary();
+      }
+    }
+  }
+
+  .contest-question-info {
+    ul.list-group {
+      box-shadow: @card-shadow !important;
+
+      li.list-group-item {
+        color: @text-light-color !important;
+        border: 1px solid @card-background-color !important;
+        background: @background-color !important;
+
+        &:hover {
+          background: @card-background-color !important;
+        }
+
+        a {
+          color: @text-color !important;
+        }
+
+        strong {
+          color: @text-color !important;
+        }
+      }
+    }
+  }
+
+  .question-content {
+    code {
+      background-color: @grey3-color !important;
+    }
+
+    pre {
+      strong {
+        color: @title-color !important;
+      }
+
+      color: @text-color !important;
+      border: 1px solid @border-color !important;
+      background-color: @card-background-color !important;
+    }
+
+    img {
+      background-color: @grey5-color !important;
+    }
+  }
+
+  .editor-base {
+    .line {
+      border-top: 1px solid @border-color !important;
+    }
+
+    .control-btn-bar {
+      .language-select-wrapper {
+      }
+
+      .editor-toolbar {
+        button {
+          .btn-default();
+        }
+
+        .popover {
+          color: @text-color !important;
+          background: @dropdown-background-color !important;
+
+          .arrow::after {
+            border-top-color: @dropdown-background-color !important;
+          }
+        }
+      }
+    }
+
+    .ReactCodeMirror {
+      .CodeMirror {
+        filter: invert(0.88) hue-rotate(180deg);
+      }
+    }
+
+    .action {
+      button.btn-default {
+        .btn-default();
+      }
+
+      button.btn-primary {
+        .btn-blue();
+      }
+
+      textarea {
+        color: @text-color !important;
+        border: 1px solid @border-color !important;
+        background-color: @card-background-color !important;
+      }
+
+      .popover {
+        color: @text-color !important;
+        background: @dropdown-background-color !important;
+
+        .arrow::after {
+          border-top-color: @dropdown-background-color !important;
+        }
+      }
+    }
+  }
+
+  .rc-dialog-partial();
+
+  .Select-control {
+    .ipt-gold();
+
+    .Select-value {
+      background: @background-color !important;
+
+      .Select-value-label {
+        color: @text-color !important;
+      }
+
+      & + div {
+        background: transparent !important;
+      }
+    }
+
+    .Select-arrow-zone {
+      background: transparent !important;
+    }
+
+    & + .Select-menu-outer {
+      border: none !important;
+      filter: invert(0.88) hue-rotate(180deg);
+    }
+  }
+
+  // 比赛结果
+  .table-striped {
+    thead {
+      color: @text-light-color !important;
+    }
+
+    tbody tr {
+      &.success {
+        background: @green-color !important;
+      }
+
+      &:hover {
+        background: @table-hover-color !important;
+      }
+
+      &:nth-child(2n + 1) {
+        &:hover {
+          background: @table-hover-color !important;
+        }
+
+        background: @table-odd-color !important;
+      }
+
+      td {
+        border-top: 1px solid @table-border-color !important;
+      }
+    }
+  }
+
+  .popover {
+    color: @text-color !important;
+    background: @dropdown-background-color !important;
+
+    .arrow::after {
+      border-top-color: @dropdown-background-color !important;
     }
   }
 }
