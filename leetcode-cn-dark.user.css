@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         LeetcodeCN Dark
 @namespace    github.com/blackcater/LeetCodeCN-Dark
-@version      1.4.0
+@version      1.4.1
 @license      Mulan PSL
 @updateURL    https://raw.githubusercontent.com/blackcater/LeetCodeCN-Dark/master/leetcode-cn-dark.user.css
 @author       Elon Tang <blackcater2015@gmail.com>
@@ -115,6 +115,9 @@
   }
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
     color: #ffa119 !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-k9duj1-UserName a:hover {
+    background: none !important;
   }
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
     color: #ffa119 !important;
@@ -671,6 +674,9 @@
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
     color: #ffa119 !important;
   }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-k9duj1-UserName a:hover {
+    background: none !important;
+  }
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
     color: #ffa119 !important;
   }
@@ -936,6 +942,9 @@
   }
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
     color: #ffa119 !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-k9duj1-UserName a:hover {
+    background: none !important;
   }
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
     color: #ffa119 !important;
@@ -1277,6 +1286,9 @@
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
     color: #ffa119 !important;
   }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-k9duj1-UserName a:hover {
+    background: none !important;
+  }
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
     color: #ffa119 !important;
   }
@@ -1403,6 +1415,9 @@
   }
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
     color: #ffa119 !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-k9duj1-UserName a:hover {
+    background: none !important;
   }
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
     color: #ffa119 !important;
@@ -1607,6 +1622,9 @@
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
     color: #ffa119 !important;
   }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-k9duj1-UserName a:hover {
+    background: none !important;
+  }
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
     color: #ffa119 !important;
   }
@@ -1770,6 +1788,9 @@
   }
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
     color: #ffa119 !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-k9duj1-UserName a:hover {
+    background: none !important;
   }
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
     color: #ffa119 !important;
@@ -2245,6 +2266,9 @@
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
     color: #ffa119 !important;
   }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-k9duj1-UserName a:hover {
+    background: none !important;
+  }
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
     color: #ffa119 !important;
   }
@@ -2408,6 +2432,9 @@
   }
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
     color: #ffa119 !important;
+  }
+  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-k9duj1-UserName a:hover {
+    background: none !important;
   }
   .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
     color: #ffa119 !important;
