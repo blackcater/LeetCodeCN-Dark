@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         LeetcodeCN Dark
 @namespace    github.com/blackcater/LeetCodeCN-Dark
-@version      1.4.1
+@version      1.4.2
 @license      Mulan PSL
 @updateURL    https://raw.githubusercontent.com/blackcater/LeetCodeCN-Dark/master/leetcode-cn-dark.user.css
 @author       Elon Tang <blackcater2015@gmail.com>
@@ -60,6 +60,9 @@
   #noj-navbar nav li {
     color: #dbdbdb !important;
   }
+  #noj-navbar nav li a:hover {
+    color: #ffffff !important;
+  }
   #noj-navbar .css-1n67oxn-LightImg {
     display: none !important;
   }
@@ -108,31 +111,34 @@
   .ant-dropdown.css-mmpgiv-DropdownComponentClassName {
     filter: invert(0.88) hue-rotate(180deg);
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer {
     background: #2b2b2b !important;
     box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.54) !important;
     border: 1px solid #3d3d3d !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
     color: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-k9duj1-UserName a:hover {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-1mlggsb-UserName a:hover {
     background: none !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
     color: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
     fill: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a {
     color: #b3b3b3 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a:hover {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a:hover {
     background: #3d3d3d !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a svg {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a svg {
     fill: #b3b3b3 !important;
+  }
+  .modal-container > .css-1k8kvou-ContentContainer-level4-StyledBaseModal {
+    filter: invert(0.88) hue-rotate(180deg);
   }
   #base_content {
     background: #1c1c1c !important;
@@ -260,6 +266,9 @@
   }
   #base_content .contest-detail-base .panel.ranking-list .panel-body table tbody tr td {
     border-top: 2px solid #3d3d3d !important;
+  }
+  #base_content .contest-detail-base .panel.ranking-list .panel-body table tbody tr td .ranking-username .css-1ksz8o4-NameWrap {
+    color: #b3b3b3 !important;
   }
   #base_content .contest-detail-base .panel.ranking-list .panel-body a.ranking-more-btn {
     border-top: 1px solid #3d3d3d !important;
@@ -543,6 +552,12 @@
   .table-striped tbody tr.success {
     background: #5ab726 !important;
   }
+  .table-striped tbody tr.success td {
+    color: #5c5c5c !important;
+  }
+  .table-striped tbody tr.success td .ranking-username {
+    color: #5c5c5c !important;
+  }
   .table-striped tbody tr:hover {
     background: #3d3d3d !important;
   }
@@ -554,6 +569,9 @@
   }
   .table-striped tbody tr td {
     border-top: 1px solid #3d3d3d !important;
+  }
+  .table-striped tbody tr td .ranking-username .css-1ksz8o4-NameWrap {
+    color: #b3b3b3 !important;
   }
   .popover {
     color: #b3b3b3 !important;
@@ -618,6 +636,9 @@
   #noj-navbar nav li {
     color: #dbdbdb !important;
   }
+  #noj-navbar nav li a:hover {
+    color: #ffffff !important;
+  }
   #noj-navbar .css-1n67oxn-LightImg {
     display: none !important;
   }
@@ -666,31 +687,34 @@
   .ant-dropdown.css-mmpgiv-DropdownComponentClassName {
     filter: invert(0.88) hue-rotate(180deg);
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer {
     background: #2b2b2b !important;
     box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.54) !important;
     border: 1px solid #3d3d3d !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
     color: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-k9duj1-UserName a:hover {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-1mlggsb-UserName a:hover {
     background: none !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
     color: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
     fill: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a {
     color: #b3b3b3 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a:hover {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a:hover {
     background: #3d3d3d !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a svg {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a svg {
     fill: #b3b3b3 !important;
+  }
+  .modal-container > .css-1k8kvou-ContentContainer-level4-StyledBaseModal {
+    filter: invert(0.88) hue-rotate(180deg);
   }
   #contribution-app .contribute-landing-background {
     background: #1c1c1c !important;
@@ -887,6 +911,9 @@
   #noj-navbar nav li {
     color: #dbdbdb !important;
   }
+  #noj-navbar nav li a:hover {
+    color: #ffffff !important;
+  }
   #noj-navbar .css-1n67oxn-LightImg {
     display: none !important;
   }
@@ -935,31 +962,34 @@
   .ant-dropdown.css-mmpgiv-DropdownComponentClassName {
     filter: invert(0.88) hue-rotate(180deg);
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer {
     background: #2b2b2b !important;
     box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.54) !important;
     border: 1px solid #3d3d3d !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
     color: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-k9duj1-UserName a:hover {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-1mlggsb-UserName a:hover {
     background: none !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
     color: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
     fill: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a {
     color: #b3b3b3 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a:hover {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a:hover {
     background: #3d3d3d !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a svg {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a svg {
     fill: #b3b3b3 !important;
+  }
+  .modal-container > .css-1k8kvou-ContentContainer-level4-StyledBaseModal {
+    filter: invert(0.88) hue-rotate(180deg);
   }
   .favorite-navigation {
     border-bottom: 1px solid #3d3d3d !important;
@@ -1230,6 +1260,9 @@
   #noj-navbar nav li {
     color: #dbdbdb !important;
   }
+  #noj-navbar nav li a:hover {
+    color: #ffffff !important;
+  }
   #noj-navbar .css-1n67oxn-LightImg {
     display: none !important;
   }
@@ -1278,31 +1311,34 @@
   .ant-dropdown.css-mmpgiv-DropdownComponentClassName {
     filter: invert(0.88) hue-rotate(180deg);
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer {
     background: #2b2b2b !important;
     box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.54) !important;
     border: 1px solid #3d3d3d !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
     color: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-k9duj1-UserName a:hover {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-1mlggsb-UserName a:hover {
     background: none !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
     color: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
     fill: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a {
     color: #b3b3b3 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a:hover {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a:hover {
     background: #3d3d3d !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a svg {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a svg {
     fill: #b3b3b3 !important;
+  }
+  .modal-container > .css-1k8kvou-ContentContainer-level4-StyledBaseModal {
+    filter: invert(0.88) hue-rotate(180deg);
   }
 }
 
@@ -1360,6 +1396,9 @@
   #noj-navbar nav li {
     color: #dbdbdb !important;
   }
+  #noj-navbar nav li a:hover {
+    color: #ffffff !important;
+  }
   #noj-navbar .css-1n67oxn-LightImg {
     display: none !important;
   }
@@ -1408,31 +1447,34 @@
   .ant-dropdown.css-mmpgiv-DropdownComponentClassName {
     filter: invert(0.88) hue-rotate(180deg);
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer {
     background: #2b2b2b !important;
     box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.54) !important;
     border: 1px solid #3d3d3d !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
     color: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-k9duj1-UserName a:hover {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-1mlggsb-UserName a:hover {
     background: none !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
     color: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
     fill: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a {
     color: #b3b3b3 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a:hover {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a:hover {
     background: #3d3d3d !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a svg {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a svg {
     fill: #b3b3b3 !important;
+  }
+  .modal-container > .css-1k8kvou-ContentContainer-level4-StyledBaseModal {
+    filter: invert(0.88) hue-rotate(180deg);
   }
   #app {
     background: #1c1c1c !important;
@@ -1566,6 +1608,9 @@
   #noj-navbar nav li {
     color: #dbdbdb !important;
   }
+  #noj-navbar nav li a:hover {
+    color: #ffffff !important;
+  }
   #noj-navbar .css-1n67oxn-LightImg {
     display: none !important;
   }
@@ -1614,31 +1659,34 @@
   .ant-dropdown.css-mmpgiv-DropdownComponentClassName {
     filter: invert(0.88) hue-rotate(180deg);
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer {
     background: #2b2b2b !important;
     box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.54) !important;
     border: 1px solid #3d3d3d !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
     color: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-k9duj1-UserName a:hover {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-1mlggsb-UserName a:hover {
     background: none !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
     color: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
     fill: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a {
     color: #b3b3b3 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a:hover {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a:hover {
     background: #3d3d3d !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a svg {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a svg {
     fill: #b3b3b3 !important;
+  }
+  .modal-container > .css-1k8kvou-ContentContainer-level4-StyledBaseModal {
+    filter: invert(0.88) hue-rotate(180deg);
   }
   #points-app .page-title {
     color: #dbdbdb !important;
@@ -1733,6 +1781,9 @@
   #noj-navbar nav li {
     color: #dbdbdb !important;
   }
+  #noj-navbar nav li a:hover {
+    color: #ffffff !important;
+  }
   #noj-navbar .css-1n67oxn-LightImg {
     display: none !important;
   }
@@ -1781,31 +1832,34 @@
   .ant-dropdown.css-mmpgiv-DropdownComponentClassName {
     filter: invert(0.88) hue-rotate(180deg);
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer {
     background: #2b2b2b !important;
     box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.54) !important;
     border: 1px solid #3d3d3d !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
     color: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-k9duj1-UserName a:hover {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-1mlggsb-UserName a:hover {
     background: none !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
     color: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
     fill: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a {
     color: #b3b3b3 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a:hover {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a:hover {
     background: #3d3d3d !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a svg {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a svg {
     fill: #b3b3b3 !important;
+  }
+  .modal-container > .css-1k8kvou-ContentContainer-level4-StyledBaseModal {
+    filter: invert(0.88) hue-rotate(180deg);
   }
   #question-app .category-group-base > span:first-child {
     color: #dbdbdb !important;
@@ -2210,6 +2264,9 @@
   #noj-navbar nav li {
     color: #dbdbdb !important;
   }
+  #noj-navbar nav li a:hover {
+    color: #ffffff !important;
+  }
   #noj-navbar .css-1n67oxn-LightImg {
     display: none !important;
   }
@@ -2258,31 +2315,34 @@
   .ant-dropdown.css-mmpgiv-DropdownComponentClassName {
     filter: invert(0.88) hue-rotate(180deg);
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer {
     background: #2b2b2b !important;
     box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.54) !important;
     border: 1px solid #3d3d3d !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
     color: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-k9duj1-UserName a:hover {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-1mlggsb-UserName a:hover {
     background: none !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
     color: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
     fill: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a {
     color: #b3b3b3 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a:hover {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a:hover {
     background: #3d3d3d !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a svg {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a svg {
     fill: #b3b3b3 !important;
+  }
+  .modal-container > .css-1k8kvou-ContentContainer-level4-StyledBaseModal {
+    filter: invert(0.88) hue-rotate(180deg);
   }
   #base_content {
     background: #1c1c1c !important;
@@ -2377,6 +2437,9 @@
   #noj-navbar nav li {
     color: #dbdbdb !important;
   }
+  #noj-navbar nav li a:hover {
+    color: #ffffff !important;
+  }
   #noj-navbar .css-1n67oxn-LightImg {
     display: none !important;
   }
@@ -2425,31 +2488,34 @@
   .ant-dropdown.css-mmpgiv-DropdownComponentClassName {
     filter: invert(0.88) hue-rotate(180deg);
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer {
     background: #2b2b2b !important;
     box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.54) !important;
     border: 1px solid #3d3d3d !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer {
     color: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-k9duj1-UserName a:hover {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-8wgfkr-UserNameContainer .css-1mlggsb-UserName a:hover {
     background: none !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper .css-hfz3b8-TimeRemainContainer {
     color: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer .css-1tlu1zr-Wrapper svg {
     fill: #ffa119 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a {
     color: #b3b3b3 !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a:hover {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a:hover {
     background: #3d3d3d !important;
   }
-  .popper-container > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer a svg {
+  .popper-container > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer a svg {
     fill: #b3b3b3 !important;
+  }
+  .modal-container > .css-1k8kvou-ContentContainer-level4-StyledBaseModal {
+    filter: invert(0.88) hue-rotate(180deg);
   }
   #base_content h3,
   #base_content h4 {

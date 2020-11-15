@@ -88,6 +88,10 @@ h1 {
   nav {
     li {
       color: @title-color !important;
+
+      a:hover {
+        color: @white-color !important;
+      }
     }
   }
 
@@ -156,7 +160,7 @@ h1 {
 // 右上角用户点击后弹窗
 // waning: 不清楚是否对不同用户有不同影响
 .popper-container
-  > .css-1rezss4-Container-layer1-level3-DropdownPopperContainer {
+  > .css-15oudoz-Container-layer1-level3-DropdownPopperContainer {
   background: @dropdown-background-color !important;
   box-shadow: @dropdown-shadow !important;
   border: @dropdown-border !important;
@@ -167,7 +171,7 @@ h1 {
     .css-8wgfkr-UserNameContainer {
       color: @yellow5-color !important;
 
-      .css-k9duj1-UserName a:hover {
+      .css-1mlggsb-UserName a:hover {
         background: none !important;
       }
     }
@@ -194,4 +198,9 @@ h1 {
       fill: @text-color !important;
     }
   }
+}
+
+// 新建 playground
+.modal-container > .css-1k8kvou-ContentContainer-level4-StyledBaseModal {
+  filter: invert(0.88) hue-rotate(180deg);
 }
