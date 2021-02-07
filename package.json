@@ -1,6 +1,6 @@
 {
   "name": "LeetCodeCN-Dark",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "中国区 LeetCode 支持黑色主题",
   "main": "index.js",
   "repository": "https://github.com/blackcater/LeetCodeCN-Dark.git",
@@ -16,9 +16,9 @@
     "gulp-concat": "^2.6.1",
     "gulp-header": "^2.0.9",
     "gulp-less": "^4.0.1",
-    "less": "^3.12.2",
+    "less": "^3.13.1",
     "less-plugin-autoprefix": "^2.0.0",
     "less-plugin-inline-svg": "^2.0.1",
-    "prettier": "^2.0.5"
+    "prettier": "^2.2.1"
   }
 }

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         LeetcodeCN Dark
 @namespace    github.com/blackcater/LeetCodeCN-Dark
-@version      1.4.2
+@version      1.4.3
 @license      Mulan PSL
 @updateURL    https://raw.githubusercontent.com/blackcater/LeetCodeCN-Dark/master/leetcode-cn-dark.user.css
 @author       Elon Tang <blackcater2015@gmail.com>
@@ -2040,13 +2040,13 @@
   #user-progress-app .css-1rc2chb-CalendarWrapper {
     background: #2b2b2b !important;
   }
-  #user-progress-app .css-1rc2chb-CalendarWrapper .css-4hxiu2-MedalContainer {
+  #user-progress-app .css-1rc2chb-CalendarWrapper .css-1qr6czm-MedalContainer {
     background: none;
   }
-  #user-progress-app .css-1rc2chb-CalendarWrapper .css-4hxiu2-MedalContainer img {
+  #user-progress-app .css-1rc2chb-CalendarWrapper .css-1qr6czm-MedalContainer img {
     opacity: 0.5;
   }
-  #user-progress-app .css-1rc2chb-CalendarWrapper .css-4hxiu2-MedalContainer img:hover {
+  #user-progress-app .css-1rc2chb-CalendarWrapper .css-1qr6czm-MedalContainer img:hover {
     opacity: 1;
   }
   #user-progress-app .css-1rc2chb-CalendarWrapper .css-yk1l9u-CalendarTitle {
@@ -2062,7 +2062,7 @@
   #user-progress-app .css-1rc2chb-CalendarWrapper .css-ctx0ft-CalendarWeek .css-11lyyu4-CalendarHeader {
     color: #dbdbdb !important;
   }
-  #user-progress-app .css-1rc2chb-CalendarWrapper .css-ctx0ft-CalendarWeek .css-400zsq-CalendarDay {
+  #user-progress-app .css-1rc2chb-CalendarWrapper .css-ctx0ft-CalendarWeek .css-1nl9zo2-CalendarDay {
     color: #b3b3b3 !important;
   }
   #user-progress-app .css-1rc2chb-CalendarWrapper .css-ctx0ft-CalendarWeek .css-tgugze-CalendarDay-MissedCalendarDay {
@@ -2083,13 +2083,13 @@
   #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-17nb129-Title {
     color: #dbdbdb !important;
   }
-  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-134uju6-ButtonContainer .css-1b0qeup-SessionButton {
+  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-134uju6-ButtonContainer .css-4nx14l-SessionButton {
     background-color: #3d3d3d !important;
   }
-  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-134uju6-ButtonContainer .css-1b0qeup-SessionButton .css-5lrm4v-SessionName {
+  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-134uju6-ButtonContainer .css-4nx14l-SessionButton .css-5lrm4v-SessionName {
     color: #b3b3b3 !important;
   }
-  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-134uju6-ButtonContainer .css-1b0qeup-SessionButton svg {
+  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-134uju6-ButtonContainer .css-4nx14l-SessionButton svg {
     fill: #b3b3b3 !important;
   }
   #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-134uju6-ButtonContainer .css-zndv66-ConfigButton {
@@ -2098,25 +2098,25 @@
   #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-134uju6-ButtonContainer .css-zndv66-ConfigButton svg {
     fill: #b3b3b3 !important;
   }
-  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-2x1u4a-DropdownContainer {
+  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-aj4hf2-DropdownContainer {
     border: 1px solid #3d3d3d;
     box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.54);
     background: #2b2b2b;
   }
-  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-2x1u4a-DropdownContainer .css-latz5u-SessionOption div {
+  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-aj4hf2-DropdownContainer .css-latz5u-SessionOption div {
     color: #b3b3b3 !important;
   }
-  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-2x1u4a-DropdownContainer .css-latz5u-SessionOption svg {
+  #user-progress-app .css-obaajf-Container .css-jg8d0x-TitleContainer .css-aj4hf2-DropdownContainer .css-latz5u-SessionOption svg {
     fill: #2db55d !important;
   }
-  #user-progress-app .css-obaajf-Container .css-eysaw4-Container .css-1yahjo4-SubmitPercentage,
-  #user-progress-app .css-obaajf-Container .css-eysaw4-Container .css-1cwh3x2-SubmitText {
+  #user-progress-app .css-obaajf-Container .css-1lr8tm-Container .css-1yahjo4-SubmitPercentage,
+  #user-progress-app .css-obaajf-Container .css-1lr8tm-Container .css-1cwh3x2-SubmitText {
     color: #b3b3b3 !important;
   }
-  #user-progress-app .css-obaajf-Container .css-uxkw03-Container .css-8mbaxz-AcceptedNum {
+  #user-progress-app .css-obaajf-Container .css-1ceziaf-Container .css-8mbaxz-AcceptedNum {
     color: #b3b3b3 !important;
   }
-  #user-progress-app .css-obaajf-Container .css-uxkw03-Container .css-1g4kd3y-TotalNum {
+  #user-progress-app .css-obaajf-Container .css-1ceziaf-Container .css-1g4kd3y-TotalNum {
     color: #5c5c5c !important;
   }
   #list-card-app .sidebar-title {
@@ -2198,7 +2198,7 @@
   #enterprise-tags a {
     color: #b3b3b3 !important;
   }
-  #enterprise-tags a[href="/interview/"] {
+  #enterprise-tags a[href="/company/"] {
     color: #b3b3b3 !important;
     background: linear-gradient(rgba(0, 0, 0, 0), 10%, #1c1c1c) !important;
   }
