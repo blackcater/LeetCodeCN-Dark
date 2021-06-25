@@ -1,3 +1,7 @@
+# 该项目已归档，官方已完全支持黑色主题
+
+---
+
 <h1 align="center">LeetCodeCN-Dark</h1>
 
 > 中国区 LeetCode 支持黑色主题。
